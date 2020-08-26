@@ -28,7 +28,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	public Employee findById(int theId) {
 		Optional<Employee> result = employeeRepository.findById(theId);
 		
-		Employee theEmployee = null;
+		Employee theEmployee;
 		
 		if (result.isPresent()) {
 			theEmployee = result.get();
@@ -49,6 +49,11 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public void deleteById(int theId) {
 		employeeRepository.deleteById(theId);
+	}
+
+	@Override
+	public List<Employee> findByKeyword(String keyword) {
+		return employeeRepository.findByKeyword(keyword);
 	}
 
 }

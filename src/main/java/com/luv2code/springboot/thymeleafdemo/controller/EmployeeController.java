@@ -22,14 +22,19 @@ public class EmployeeController {
 	// add mapping for "/list"
 
 	@GetMapping("/list")
-	public String listEmployees(Model theModel) {
+	public String listEmployees(Model theModel, String keyword) {
 		
 		// get employees from db
 		List<Employee> theEmployees = employeeService.findAll();
-		
-		// add to the spring model
-		theModel.addAttribute("employees", theEmployees);
-		
+		// check if there is a search keyword
+		if(keyword != null){
+			theModel.addAttribute("employees",employeeService.findByKeyword(keyword));
+		}
+		else {
+			// add to the spring model
+			theModel.addAttribute("employees", theEmployees);
+		}
+
 		return "employees/list-employees";
 	}
 	

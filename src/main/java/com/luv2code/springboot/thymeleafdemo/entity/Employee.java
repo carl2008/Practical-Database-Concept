@@ -1,5 +1,6 @@
 package com.luv2code.springboot.thymeleafdemo.entity;
 
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
