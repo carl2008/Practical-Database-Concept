@@ -60,4 +60,9 @@ public class CategoriesController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
+
+    @DeleteMapping(path = "{id}")
+    public void delete(@PathVariable UUID id) {
+        categoriesService.delete(id);
+    }
 }
