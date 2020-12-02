@@ -24,7 +24,7 @@ public class CategoriesService {
     }
 
     public Categories get(UUID id) {
-        return categoriesRepository.findById(id).get();
+        return categoriesRepository.findOneById(id);
     }
 
     public void delete(UUID id) {
