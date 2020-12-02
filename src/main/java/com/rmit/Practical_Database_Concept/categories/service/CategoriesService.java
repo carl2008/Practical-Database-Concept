@@ -23,7 +23,7 @@ public class CategoriesService {
         categoriesRepository.save(categories);
     }
 
-    public Categories get(UUID id) {
+    public Categories findByUuid(UUID id) {
         return categoriesRepository.findOneById(id);
     }
 
