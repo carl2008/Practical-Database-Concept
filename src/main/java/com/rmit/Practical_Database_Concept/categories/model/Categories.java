@@ -14,10 +14,9 @@ import java.util.UUID;
 public class Categories {
 
     @Id
-    @GeneratedValue(generator = "uuid2")
-    @GenericGenerator(name = "uuid2", strategy = "org.hibernate.id.UUIDGenerator")
-    @NotBlank
-    @Column(name = "id", columnDefinition = "VARCHAR(255)")
+    @GeneratedValue(generator = "UUID")
+    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
+    @Column(name = "id", updatable = false, nullable = false, unique=true)
     private UUID id;
 
     @Column(name = "categories_name", columnDefinition = "VARCHAR(100)")
