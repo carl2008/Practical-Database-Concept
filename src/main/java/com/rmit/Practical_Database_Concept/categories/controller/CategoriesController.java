@@ -1,6 +1,5 @@
 package com.rmit.Practical_Database_Concept.categories.controller;
 
-import com.rmit.Practical_Database_Concept.categories.dao.CategoriesDao;
 import com.rmit.Practical_Database_Concept.categories.model.Categories;
 import com.rmit.Practical_Database_Concept.categories.service.CategoriesService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,12 +17,9 @@ public class CategoriesController {
 
     private CategoriesService categoriesService;
 
-    private final CategoriesDao categoriesDao;
-
     @Autowired
-    public CategoriesController(CategoriesService categoriesService, CategoriesDao categoriesDao) {
+    public CategoriesController(CategoriesService categoriesService) {
         this.categoriesService = categoriesService;
-        this.categoriesDao = categoriesDao;
     }
 
     @GetMapping()
