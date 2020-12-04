@@ -3,6 +3,7 @@ package com.rmit.Practical_Database_Concept.user.service;
 import com.rmit.Practical_Database_Concept.user.model.User;
 import com.rmit.Practical_Database_Concept.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
@@ -24,6 +25,8 @@ public class UserService {
     }
 
     public void save(User user) {
+        user.setPassword(new BCryptPasswordEncoder().encode(user.getPassword()));
+
         userRepository.save(user);
     }
 
