@@ -12,8 +12,12 @@ import java.util.UUID;
 @Service
 @Transactional
 public class CategoriesService {
-    @Autowired
-    private CategoriesRepository categoriesRepository;
+
+    private final CategoriesRepository categoriesRepository;
+
+    public CategoriesService(CategoriesRepository categoriesRepository) {
+        this.categoriesRepository = categoriesRepository;
+    }
 
     public List<Categories> listAll() {
         return categoriesRepository.findAll();
