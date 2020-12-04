@@ -15,7 +15,7 @@ import java.util.UUID;
 @RequestMapping("api/v1/categories")
 public class CategoriesController {
 
-    private CategoriesService categoriesService;
+    private final CategoriesService categoriesService;
 
     @Autowired
     public CategoriesController(CategoriesService categoriesService) {
