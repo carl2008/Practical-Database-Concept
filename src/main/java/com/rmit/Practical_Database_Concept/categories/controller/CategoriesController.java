@@ -12,7 +12,7 @@ import java.util.NoSuchElementException;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("api/v1/categories")
+@RequestMapping("api/categories")
 public class CategoriesController {
 
     private final CategoriesService categoriesService;
@@ -37,12 +37,12 @@ public class CategoriesController {
         }
     }
 
-    @PostMapping()
+    @PostMapping("/v1")
     public void createNewCategory(@RequestBody Categories categories) {
         categoriesService.save(categories);
     }
 
-    @PutMapping(path = "{id}")
+    @PutMapping(path = "/v1/{id}")
     public ResponseEntity<?> updateCategory(@RequestBody Categories categories, @PathVariable UUID id) {
         try {
             Categories existCategory = categoriesService.findByUuid(id);
@@ -57,7 +57,7 @@ public class CategoriesController {
         }
     }
 
-    @DeleteMapping(path = "{id}")
+    @DeleteMapping(path = "/v1/{id}")
     public void delete(@PathVariable UUID id) {
         categoriesService.delete(id);
     }
