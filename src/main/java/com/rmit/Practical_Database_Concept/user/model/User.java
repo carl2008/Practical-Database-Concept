@@ -1,5 +1,6 @@
 package com.rmit.Practical_Database_Concept.user.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
 
@@ -28,7 +29,7 @@ public class User {
     @Column(name = "isActive")
     private boolean isActive;
 
-    public User(UUID id, String username, String password, String roles, boolean isActive) {
+    public User(UUID id, String username, String password, String roles, @JsonProperty("isActive") boolean isActive) {
         this.id = id;
         this.username = username;
         this.password = password;
