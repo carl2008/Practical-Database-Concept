@@ -38,7 +38,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             .disable()
             .authorizeRequests()
             .requestMatchers(req-> req.getRequestURI().contains("/v1")).authenticated()
-            .requestMatchers(req-> req.getRequestURI().contains("/v2")).hasRole("ROLE_ADMIN")
+            .requestMatchers(req-> req.getRequestURI().contains("/v2")).hasRole("ADMIN")
             .anyRequest().permitAll()
             .and()
             .sessionManagement()
