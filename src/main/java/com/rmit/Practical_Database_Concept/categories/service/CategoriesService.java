@@ -14,6 +14,7 @@ import java.util.UUID;
 public class CategoriesService {
     private final CategoriesRepository categoriesRepository;
 
+    @Autowired
     public CategoriesService(CategoriesRepository categoriesRepository) {
         this.categoriesRepository = categoriesRepository;
     }

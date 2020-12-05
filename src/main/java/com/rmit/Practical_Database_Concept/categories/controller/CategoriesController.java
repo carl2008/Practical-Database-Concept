@@ -37,9 +37,9 @@ public class CategoriesController {
         }
     }
 
-    @PostMapping("/v1")
+    @PostMapping("")
     public void createNewCategory(@RequestBody Categories categories) {
-        categoriesService.save(categories);
+//        categoriesService.save(categories);
     }
 
     @PutMapping(path = "/v1/{id}")
