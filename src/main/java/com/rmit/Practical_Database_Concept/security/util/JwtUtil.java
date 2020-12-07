@@ -43,6 +43,13 @@ public class JwtUtil {
         return createToken(claims, userDetails.getUsername());
     }
 
+    /**
+     * Generates a JWT token containing username as subject, and userId and role as additional claims. These properties are taken from the specified
+     * User object. Tokens validity is infinite.
+     *
+     * @param
+     * @return the JWT token
+     */
     private String createToken(Map<String, Object> claims, String username) {
         return Jwts.builder()
                 .setClaims(claims)

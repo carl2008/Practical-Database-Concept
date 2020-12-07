@@ -1,6 +1,5 @@
 package com.rmit.Practical_Database_Concept.user.controller;
 
-import com.rmit.Practical_Database_Concept.categories.model.Categories;
 import com.rmit.Practical_Database_Concept.user.model.User;
 import com.rmit.Practical_Database_Concept.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.NoSuchElementException;
-import java.util.UUID;
 
 @RestController
 @RequestMapping("api/users")
@@ -44,9 +42,9 @@ public class UserController {
     }
 
     @PutMapping(path = "{id}")
-    public ResponseEntity<?> updateUser(@RequestBody User user, @PathVariable UUID id) {
+    public ResponseEntity<?> updateUser(@RequestBody User user, @PathVariable int id) {
         try {
-            User existUser = userService.findByUuid(id);
+            User existUser = userService.findOneById(id);
 
             user.setId(id);
 
@@ -59,7 +57,7 @@ public class UserController {
     }
 
     @DeleteMapping(path = "{id}")
-    public void delete(@PathVariable UUID id) {
+    public void delete(@PathVariable int id) {
         userService.delete(id);
     }
 }

@@ -24,17 +24,21 @@ public class UserService {
         return userRepository.findAll();
     }
 
+    public User findOneById(int id) {
+        return userRepository.findOneById(id);
+    }
+
+    public User findByUsername(String username) {
+        return userRepository.findUserByUsername(username);
+    }
+
     public void save(User user) {
         user.setPassword(new BCryptPasswordEncoder().encode(user.getPassword()));
 
         userRepository.save(user);
     }
 
-    public User findByUuid(UUID id) {
-        return userRepository.findOneById(id);
-    }
-
-    public void delete(UUID id) {
+    public void delete(int id) {
         userRepository.deleteById(id);
     }
 }

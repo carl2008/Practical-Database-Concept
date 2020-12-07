@@ -28,37 +28,28 @@ public class CategoriesController {
     }
 
     @GetMapping(path = "{id}")
-    public ResponseEntity<Categories> getCategoryById(@PathVariable UUID id) {
+    public ResponseEntity<Categories> getCategoryById(@PathVariable int id) {
         try {
-            Categories categories = categoriesService.findByUuid(id);
+            Categories categories = categoriesService.findById(id);
+
             return new ResponseEntity<Categories>(categories, HttpStatus.OK);
         } catch (NoSuchElementException e) {
             return new ResponseEntity<Categories>(HttpStatus.NOT_FOUND);
         }
     }
 
-    @PostMapping("")
-    public void createNewCategory(@RequestBody Categories categories) {
-//        categoriesService.save(categories);
+    @PostMapping("/v1")
+    public void save(@RequestBody Categories categories) {
+        categoriesService.save(categories);
     }
 
     @PutMapping(path = "/v1/{id}")
-    public ResponseEntity<?> updateCategory(@RequestBody Categories categories, @PathVariable UUID id) {
-        try {
-            Categories existCategory = categoriesService.findByUuid(id);
-
-            categories.setId(id);
-
-            categoriesService.save(categories);
-
-            return new ResponseEntity<>(HttpStatus.OK);
-        } catch (NoSuchElementException e) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+    public ResponseEntity<?> update(@RequestBody Categories categories, @PathVariable int categoryId) {
+        return categoriesService.update(categories, categoryId);
     }
 
     @DeleteMapping(path = "/v1/{id}")
-    public void delete(@PathVariable UUID id) {
-        categoriesService.delete(id);
+    public ResponseEntity<?> delete(@PathVariable int id) {
+        return categoriesService.delete(id);
     }
 }

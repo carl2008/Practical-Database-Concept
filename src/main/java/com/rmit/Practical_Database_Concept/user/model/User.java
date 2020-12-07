@@ -1,23 +1,38 @@
 package com.rmit.Practical_Database_Concept.user.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.GenericGenerator;
+import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.UUID;
 
 @Entity
 @Table(name = "User")
+@Getter
+@Setter
+@AllArgsConstructor
 @NoArgsConstructor
 public class User {
-    @Id
-    @GeneratedValue(generator = "UUID")
-    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
-    @Column(name = "id", updatable = false, nullable = false, unique=true, columnDefinition = "BINARY(16)")
-    private UUID id;
+    /**
+     * Password of 123456789 when using BCrypt
+     *
+     * $2y$12$EUx4l3Iq5kfIuWB/UAbUO.gwvbKIbhFw.mNUXo.3SZlS3uktD6zCq
+     */
 
-    @Column(name = "username")
+    /**
+     * Id
+     * GeneratedValue(generator = "UUID")
+     * GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
+     * Column(name = "id", updatable = false, nullable = false, unique=true, columnDefinition = "BINARY(16)")
+     * private UUID id;
+     */
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", updatable = false, nullable = false, unique=true)
+    private int id;
+
+    @Column(name = "username", unique=true, nullable = false)
     private String username;
 
     @Column(name = "password")
@@ -26,54 +41,6 @@ public class User {
     @Column(name = "roles")
     private String roles;
 
-    @Column(name = "isActive")
+    @Column(name = "is_active")
     private boolean isActive;
-
-    public User(UUID id, String username, String password, String roles, @JsonProperty("isActive") boolean isActive) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.roles    = roles;
-        this.isActive = isActive;
-    }
-
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getRoles() {
-        return roles;
-    }
-
-    public void setRoles(String roles) {
-        this.roles = roles;
-    }
-
-    public boolean isActive() {
-        return isActive;
-    }
-
-    public void setActive(boolean active) {
-        isActive = active;
-    }
 }
