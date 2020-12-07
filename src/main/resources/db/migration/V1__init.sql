@@ -14,3 +14,13 @@ create table movie
     rated       varchar(100) null,
     description varchar(500) null
 );
+
+create table timetable
+(
+	id int auto_increment,
+	time_slot int null,
+	seat_available int null,
+	movie_id int null,
+	constraint timetable_pk
+		primary key (id)
+);
