@@ -51,13 +51,19 @@ public class BookingService {
     public void save(Booking booking, int movieId) {
         Object objectId = servletRequest.getAttribute(REQUEST_USERNAME);
 
-        User user = userService.findByUsername(objectId.toString());
+        /**
+         * Refactor from User to ResponseEntity<User>
+         */
+        ResponseEntity<User> user = userService.findByUsername(objectId.toString());
 
         Movie movie = movieService.findById(movieId);
 
         booking.setMovieId(movie);
 
-        booking.setUserId(user);
+        /**
+         * Refactor from User to ResponseEntity<User>
+         */
+        booking.setUserId(user.getBody());
 
         bookingRepository.save(booking);
     }
