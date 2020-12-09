@@ -28,13 +28,8 @@ public class CategoriesController {
     }
 
     @GetMapping(path = "{id}")
-    public ResponseEntity<Categories> getCategoryById(@PathVariable UUID id) {
-        try {
-            Categories categories = categoriesService.findByUuid(id);
-            return new ResponseEntity<Categories>(categories, HttpStatus.OK);
-        } catch (NoSuchElementException e) {
-            return new ResponseEntity<Categories>(HttpStatus.NOT_FOUND);
-        }
+    public ResponseEntity<Categories> getCategoryById(@PathVariable int id) {
+        return categoriesService.findById(id);
     }
 
     @PostMapping()
@@ -43,22 +38,12 @@ public class CategoriesController {
     }
 
     @PutMapping(path = "{id}")
-    public ResponseEntity<?> updateCategory(@RequestBody Categories categories, @PathVariable UUID id) {
-        try {
-            Categories existCategory = categoriesService.findByUuid(id);
-
-            categories.setId(id);
-
-            categoriesService.save(categories);
-
-            return new ResponseEntity<>(HttpStatus.OK);
-        } catch (NoSuchElementException e) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+    public ResponseEntity<?> updateCategory(@RequestBody Categories categories, @PathVariable int id) {
+        return categoriesService.update(categories, id);
     }
 
     @DeleteMapping(path = "{id}")
-    public void delete(@PathVariable UUID id) {
+    public void delete(@PathVariable int id) {
         categoriesService.delete(id);
     }
 }

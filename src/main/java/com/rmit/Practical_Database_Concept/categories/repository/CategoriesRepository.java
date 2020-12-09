@@ -5,6 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
 
-public interface CategoriesRepository extends JpaRepository<Categories, UUID> {
-    Categories findOneById(UUID id);
+public interface CategoriesRepository extends JpaRepository<Categories, Integer> {
+    Categories findById(int id);
 }
