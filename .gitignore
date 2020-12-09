@@ -34,3 +34,6 @@ build/
 
 ### MacOS File System ###
 .DS_Store
+
+### Logger ###
+logs/

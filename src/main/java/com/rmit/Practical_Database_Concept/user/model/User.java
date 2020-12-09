@@ -15,12 +15,6 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class User {
     /**
-     * Password of 123456789 when using BCrypt
-     *
-     * $2y$12$EUx4l3Iq5kfIuWB/UAbUO.gwvbKIbhFw.mNUXo.3SZlS3uktD6zCq
-     */
-
-    /**
      * Id
      * GeneratedValue(generator = "UUID")
      * GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
