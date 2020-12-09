@@ -1,7 +1,9 @@
 package com.rmit.Practical_Database_Concept.categories.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -10,14 +12,22 @@ import java.util.UUID;
 
 @Entity
 @Table(name = "Categories")
+@Getter
+@Setter
 @NoArgsConstructor
 public class Categories {
 
+    /**
+     * Id
+     * GeneratedValue(generator = "UUID")
+     * GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
+     * Column(name = "id", updatable = false, nullable = false, unique=true, columnDefinition = "BINARY(16)")
+     * private UUID id;
+     */
+
     @Id
-    @GeneratedValue(generator = "UUID")
-    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
-    @Column(name = "id", updatable = false, nullable = false, unique=true, columnDefinition = "BINARY(16)")
-    private UUID id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
 
     @Column(name = "categories_name", columnDefinition = "VARCHAR(100)")
     @NotBlank
