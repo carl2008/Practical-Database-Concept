@@ -1,18 +1,15 @@
 package com.rmit.Practical_Database_Concept.booking.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.rmit.Practical_Database_Concept.movie.entity.Movie;
+import com.rmit.Practical_Database_Concept.movie.model.Movie;
 import com.rmit.Practical_Database_Concept.user.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-import java.util.UUID;
 
 @Entity
 @Table(name = "booking")

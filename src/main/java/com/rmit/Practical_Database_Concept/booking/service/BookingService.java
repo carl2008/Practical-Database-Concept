@@ -2,8 +2,7 @@ package com.rmit.Practical_Database_Concept.booking.service;
 
 import com.rmit.Practical_Database_Concept.booking.model.Booking;
 import com.rmit.Practical_Database_Concept.booking.repository.BookingRepository;
-import com.rmit.Practical_Database_Concept.categories.model.Categories;
-import com.rmit.Practical_Database_Concept.movie.entity.Movie;
+import com.rmit.Practical_Database_Concept.movie.model.Movie;
 import com.rmit.Practical_Database_Concept.movie.service.MovieService;
 import com.rmit.Practical_Database_Concept.user.model.User;
 import com.rmit.Practical_Database_Concept.user.service.UserService;
@@ -16,8 +15,6 @@ import javax.servlet.ServletRequest;
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.NoSuchElementException;
-import java.util.Optional;
-import java.util.UUID;
 
 @Service
 @Transactional

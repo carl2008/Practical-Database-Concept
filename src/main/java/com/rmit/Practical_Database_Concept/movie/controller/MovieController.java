@@ -1,6 +1,6 @@
 package com.rmit.Practical_Database_Concept.movie.controller;
 
-import com.rmit.Practical_Database_Concept.movie.entity.Movie;
+import com.rmit.Practical_Database_Concept.movie.model.Movie;
 import com.rmit.Practical_Database_Concept.movie.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

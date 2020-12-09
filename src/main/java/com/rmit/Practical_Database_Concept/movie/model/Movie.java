@@ -1,4 +1,4 @@
-package com.rmit.Practical_Database_Concept.movie.entity;
+package com.rmit.Practical_Database_Concept.movie.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -16,7 +16,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Movie {
-    // Properties of Movie entity
+    // Properties of Movie model
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
