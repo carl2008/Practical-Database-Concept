@@ -37,35 +37,11 @@ public class Categories {
     @NotBlank
     private String categories_description;
 
-    public Categories(@JsonProperty("id") UUID id,
+    public Categories(@JsonProperty("id") int id,
                       @JsonProperty("categories_name") String categories_name,
                       @JsonProperty("categories_description") String categories_description) {
         this.id = id;
         this.categories_name = categories_name;
-        this.categories_description = categories_description;
-    }
-
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
-    }
-
-    public String getCategories_name() {
-        return categories_name;
-    }
-
-    public void setCategories_name(String categories_name) {
-        this.categories_name = categories_name;
-    }
-
-    public String getCategories_description() {
-        return categories_description;
-    }
-
-    public void setCategories_description(String categories_description) {
         this.categories_description = categories_description;
     }
 }
