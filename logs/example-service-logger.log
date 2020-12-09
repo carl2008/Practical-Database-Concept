@@ -1,0 +1,822 @@
+2020-12-08 00:57:47,032 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h27m49s459ms).
+2020-12-08 00:57:48,424 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 00:57:48,432 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 00:58:18,441 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 00:58:18,443 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 02:58:41,985 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h23s541ms).
+2020-12-08 02:58:41,994 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 02:58:41,995 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 02:59:11,997 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 02:59:11,999 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 04:59:41,391 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h29s392ms).
+2020-12-08 04:59:41,399 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 04:59:41,399 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 05:00:11,395 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 05:00:11,396 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 07:00:40,631 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h29s233ms).
+2020-12-08 07:00:40,641 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 07:00:40,642 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 07:01:10,642 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 07:01:10,647 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 09:01:39,667 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h29s22ms).
+2020-12-08 09:01:39,678 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 09:01:39,680 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 09:02:09,680 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 09:02:09,681 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 11:02:38,487 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s803ms).
+2020-12-08 11:02:38,506 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 11:02:38,510 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 12:25:37,335 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m58s826ms).
+2020-12-08 12:25:37,379 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 12:25:37,379 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 12:26:07,388 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 12:26:07,415 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 12:26:37,419 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 12:26:37,419 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 12:40:53,345 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m15s922ms).
+2020-12-08 12:40:53,360 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 12:40:53,361 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 12:41:23,365 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 12:41:23,367 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 12:41:53,371 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 12:41:53,372 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 12:55:58,154 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m4s777ms).
+2020-12-08 12:55:58,173 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 12:55:58,176 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 12:56:28,182 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 12:56:28,182 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 12:58:56,294 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m28s108ms).
+2020-12-08 12:58:56,312 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 12:58:56,313 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 12:59:26,323 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 12:59:26,324 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:08:15,049 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m48s722ms).
+2020-12-08 13:08:15,063 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:08:15,064 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:08:45,068 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:08:45,069 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:09:01,177 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@28b2a337: (connection has passed maxLifetime)
+2020-12-08 13:09:01,441 DEBUG c.z.h.p.PoolBase:372 [HikariPool-1 connection adder] HikariPool-1 - Failed to create/setup connection: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-12-08 13:09:01,444 DEBUG c.z.h.p.HikariPool:503 [HikariPool-1 connection adder] HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.UnknownHostException: sql12.freemysqlhosting.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1517)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 17 common frames omitted
+2020-12-08 13:09:01,702 DEBUG c.z.h.p.HikariPool:503 [HikariPool-1 connection adder] HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.UnknownHostException: sql12.freemysqlhosting.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 17 common frames omitted
+2020-12-08 13:09:02,081 DEBUG c.z.h.p.HikariPool:503 [HikariPool-1 connection adder] HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.UnknownHostException: sql12.freemysqlhosting.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 17 common frames omitted
+2020-12-08 13:09:02,649 DEBUG c.z.h.p.HikariPool:503 [HikariPool-1 connection adder] HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.UnknownHostException: sql12.freemysqlhosting.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 17 common frames omitted
+2020-12-08 13:09:03,498 DEBUG c.z.h.p.HikariPool:503 [HikariPool-1 connection adder] HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.UnknownHostException: sql12.freemysqlhosting.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 17 common frames omitted
+2020-12-08 13:09:04,772 DEBUG c.z.h.p.HikariPool:503 [HikariPool-1 connection adder] HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.UnknownHostException: sql12.freemysqlhosting.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 17 common frames omitted
+2020-12-08 13:09:06,672 DEBUG c.z.h.p.HikariPool:503 [HikariPool-1 connection adder] HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.UnknownHostException: sql12.freemysqlhosting.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 17 common frames omitted
+2020-12-08 13:09:09,400 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7d00dec8: (connection has passed maxLifetime)
+2020-12-08 13:09:09,400 DEBUG c.z.h.p.HikariPool:342 [HikariPool-1 housekeeper] HikariPool-1 - Add connection elided, waiting 0, queue 1
+2020-12-08 13:09:09,521 DEBUG c.z.h.p.HikariPool:503 [HikariPool-1 connection adder] HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.UnknownHostException: sql12.freemysqlhosting.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 17 common frames omitted
+2020-12-08 13:09:11,997 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7af9b9de: (connection has passed maxLifetime)
+2020-12-08 13:09:11,997 DEBUG c.z.h.p.HikariPool:342 [HikariPool-1 housekeeper] HikariPool-1 - Add connection elided, waiting 0, queue 2
+2020-12-08 13:09:13,791 DEBUG c.z.h.p.HikariPool:503 [HikariPool-1 connection adder] HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.UnknownHostException: sql12.freemysqlhosting.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1517)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 17 common frames omitted
+2020-12-08 13:09:14,403 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7e0ccbf6: (connection has passed maxLifetime)
+2020-12-08 13:09:14,403 DEBUG c.z.h.p.HikariPool:342 [HikariPool-1 housekeeper] HikariPool-1 - Add connection elided, waiting 0, queue 3
+2020-12-08 13:09:15,072 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=6, active=0, idle=6, waiting=0)
+2020-12-08 13:09:15,072 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:09:20,192 DEBUG c.z.h.p.HikariPool:503 [HikariPool-1 connection adder] HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.UnknownHostException: sql12.freemysqlhosting.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 17 common frames omitted
+2020-12-08 13:09:22,763 DEBUG c.z.h.p.HikariPool:342 [HikariPool-1 housekeeper] HikariPool-1 - Add connection elided, waiting 0, queue 4
+2020-12-08 13:09:22,763 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@585c3643: (connection has passed maxLifetime)
+2020-12-08 13:09:22,841 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@19613c78: (connection has passed maxLifetime)
+2020-12-08 13:09:22,841 DEBUG c.z.h.p.HikariPool:342 [HikariPool-1 housekeeper] HikariPool-1 - Add connection elided, waiting 0, queue 5
+2020-12-08 13:09:30,678 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@329d8e73
+2020-12-08 13:09:31,116 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cf80b0b
+2020-12-08 13:09:31,117 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2020-12-08 13:09:31,579 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fa24309
+2020-12-08 13:09:31,579 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2020-12-08 13:09:32,017 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47ff4be
+2020-12-08 13:09:32,018 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2020-12-08 13:09:32,450 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fd3c03c
+2020-12-08 13:09:32,451 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2020-12-08 13:09:32,866 DEBUG c.z.h.p.HikariPool:342 [HikariPool-1 housekeeper] HikariPool-1 - Add connection elided, waiting 0, queue 1
+2020-12-08 13:09:32,866 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@598ecdbd: (connection has passed maxLifetime)
+2020-12-08 13:09:32,878 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f257765
+2020-12-08 13:09:32,878 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2020-12-08 13:09:33,329 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9a61727
+2020-12-08 13:09:33,330 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:09:33,377 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3bda1ce9: (connection has passed maxLifetime)
+2020-12-08 13:09:33,815 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c733da0
+2020-12-08 13:09:37,568 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@794ec337: (connection has passed maxLifetime)
+2020-12-08 13:09:37,870 DEBUG c.z.h.p.HikariPool:342 [HikariPool-1 housekeeper] HikariPool-1 - Add connection elided, waiting 0, queue 1
+2020-12-08 13:09:37,870 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6ae629fb: (connection has passed maxLifetime)
+2020-12-08 13:09:38,437 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32f6c175
+2020-12-08 13:09:38,891 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40effae8
+2020-12-08 13:09:38,891 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:09:45,071 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:09:45,071 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:10:15,080 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:10:15,091 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:10:45,092 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:10:45,094 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:11:15,099 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:11:15,099 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:11:45,101 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:11:45,103 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:12:15,104 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:12:15,106 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:12:45,109 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:12:45,110 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:13:15,116 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:13:15,121 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:13:45,127 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:13:45,136 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:14:15,139 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:14:15,139 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:14:45,140 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:14:45,140 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:15:15,145 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:15:15,151 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:15:57,085 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:15:57,088 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:16:27,089 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:16:27,091 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:16:57,096 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:16:57,096 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:17:27,102 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:17:27,105 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:24:01,968 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m34s827ms).
+2020-12-08 13:24:01,985 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:24:01,986 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:24:31,998 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:24:32,001 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:33:14,480 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m42s481ms).
+2020-12-08 13:33:14,482 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:33:14,483 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:41:56,835 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m42s356ms).
+2020-12-08 13:41:57,592 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:41:57,593 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:42:27,606 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:42:27,610 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:51:10,217 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m42s612ms).
+2020-12-08 13:51:10,218 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:51:10,218 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 13:51:40,232 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 13:51:40,234 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:00:22,980 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m42s748ms).
+2020-12-08 14:00:22,981 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:00:22,982 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:00:52,989 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:00:52,993 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:09:36,907 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m43s918ms).
+2020-12-08 14:09:36,910 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:09:36,913 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:10:06,923 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:10:06,926 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:18:49,610 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m42s687ms).
+2020-12-08 14:18:49,614 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:18:49,615 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:27:32,850 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m43s240ms).
+2020-12-08 14:27:32,850 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:27:32,850 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:28:02,862 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:28:02,864 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:36:46,676 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m43s814ms).
+2020-12-08 14:36:46,677 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:36:46,677 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:37:16,689 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:37:16,696 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:45:59,039 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m42s336ms).
+2020-12-08 14:45:59,077 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:45:59,091 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:46:29,147 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:46:29,208 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:55:34,625 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m5s487ms).
+2020-12-08 14:55:34,662 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:55:34,664 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 14:56:04,672 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 14:56:04,674 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:04:47,339 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m42s666ms).
+2020-12-08 15:04:47,343 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:04:47,344 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:16:33,957 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m46s619ms).
+2020-12-08 15:16:34,733 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:16:34,734 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:17:04,746 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:17:04,748 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:17:34,758 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:17:34,759 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:18:50,827 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s68ms).
+2020-12-08 15:18:50,835 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:18:50,836 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:25:32,366 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m41s539ms).
+2020-12-08 15:25:32,614 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:25:32,616 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:26:02,631 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:26:02,638 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:26:19,276 DEBUG o.s.s.w.FilterChainProxy:208 [http-nio-8080-exec-5] Securing GET /
+2020-12-08 15:26:19,360 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter:102 [http-nio-8080-exec-5] Set SecurityContextHolder to empty SecurityContext
+2020-12-08 15:26:19,490 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter:96 [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2020-12-08 15:26:19,913 DEBUG o.s.s.a.i.AbstractSecurityInterceptor:210 [http-nio-8080-exec-5] Authorized filter invocation [GET /] with attributes [permitAll]
+2020-12-08 15:26:19,929 DEBUG o.s.s.w.FilterChainProxy$VirtualFilterChain:323 [http-nio-8080-exec-5] Secured GET /
+2020-12-08 15:26:19,984 INFO c.r.P.l.f.CustomURLFilter:51 [http-nio-8080-exec-5] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 79dad1b6-fb72-4ef1-a533-c1e8ad406bfc
+
+2020-12-08 15:26:20,003 INFO c.r.P.l.f.CustomURLFilter:64 [http-nio-8080-exec-5] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 79dad1b6-fb72-4ef1-a533-c1e8ad406bfc
+[PATH]: /
+[QUERIES]: null
+[HEADERS]: 
+---host : 10.247.209.193:8080
+---accept : */*
+---accept-encoding : deflate, gzip
+LOGGING REQUEST-----------------------------------
+
+2020-12-08 15:26:20,022 DEBUG o.s.w.f.CommonsRequestLoggingFilter:47 [http-nio-8080-exec-5] Before request [GET /]
+2020-12-08 15:26:20,080 DEBUG o.s.c.l.LogFormatUtils:91 [http-nio-8080-exec-5] GET "/", parameters={}
+2020-12-08 15:26:21,003 DEBUG o.s.w.s.h.AbstractHandlerMapping:510 [http-nio-8080-exec-5] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-12-08 15:26:21,196 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 [http-nio-8080-exec-5] Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2020-12-08 15:26:21,373 DEBUG o.s.w.s.r.ResourceHttpRequestHandler:510 [http-nio-8080-exec-5] Resource not found
+2020-12-08 15:26:21,388 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 [http-nio-8080-exec-5] Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2020-12-08 15:26:21,428 DEBUG o.s.w.s.FrameworkServlet:1131 [http-nio-8080-exec-5] Completed 404 NOT_FOUND
+2020-12-08 15:26:21,500 DEBUG o.s.w.f.CommonsRequestLoggingFilter:55 [http-nio-8080-exec-5] REQUEST DATA : GET /]
+2020-12-08 15:26:21,502 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter:118 [http-nio-8080-exec-5] Cleared SecurityContextHolder to complete request
+2020-12-08 15:26:21,531 DEBUG o.s.s.w.FilterChainProxy:208 [http-nio-8080-exec-5] Securing GET /error
+2020-12-08 15:26:21,534 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter:102 [http-nio-8080-exec-5] Set SecurityContextHolder to empty SecurityContext
+2020-12-08 15:26:21,536 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter:96 [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2020-12-08 15:26:21,539 DEBUG o.s.s.w.FilterChainProxy$VirtualFilterChain:323 [http-nio-8080-exec-5] Secured GET /error
+2020-12-08 15:26:21,541 DEBUG o.s.c.l.LogFormatUtils:91 [http-nio-8080-exec-5] "ERROR" dispatch for GET "/error", parameters={}
+2020-12-08 15:26:21,572 DEBUG o.s.w.s.h.AbstractHandlerMapping:510 [http-nio-8080-exec-5] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-12-08 15:26:21,575 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 [http-nio-8080-exec-5] Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2020-12-08 15:26:21,848 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor:255 [http-nio-8080-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-12-08 15:26:21,985 INFO c.r.P.l.s.LoggingService:44 [http-nio-8080-exec-5] 
+LOGGING RESPONSE-----------------------------------
+[REQUEST-ID]: 79dad1b6-fb72-4ef1-a533-c1e8ad406bfc
+[BODY RESPONSE]: 
+
+{"timestamp":"Dec 8, 2020, 3:26:21 PM","status":404,"error":"Not Found","message":"","path":"/"}
+
+LOGGING RESPONSE-----------------------------------
+
+2020-12-08 15:26:22,067 DEBUG o.s.c.l.LogFormatUtils:91 [http-nio-8080-exec-5] Writing [{timestamp=Tue Dec 08 15:26:21 ICT 2020, status=404, error=Not Found, message=, path=/}]
+2020-12-08 15:26:22,254 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 [http-nio-8080-exec-5] Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2020-12-08 15:26:22,258 DEBUG o.s.w.s.FrameworkServlet:1127 [http-nio-8080-exec-5] Exiting from "ERROR" dispatch, status 404
+2020-12-08 15:26:22,259 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter:118 [http-nio-8080-exec-5] Cleared SecurityContextHolder to complete request
+2020-12-08 15:27:44,044 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m41s413ms).
+2020-12-08 15:27:44,044 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:27:44,044 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:28:14,055 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:28:14,058 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:28:50,091 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:28:50,094 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:29:20,097 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:29:20,099 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:29:56,576 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:29:56,583 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 15:30:26,592 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 15:30:26,592 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:00:14,483 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m47s890ms).
+2020-12-08 16:00:14,487 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:00:14,489 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:00:56,522 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:00:57,216 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:01:27,227 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:01:27,229 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:03:28,346 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m1s119ms).
+2020-12-08 16:03:28,348 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:03:28,348 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:03:58,359 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:03:58,366 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:05:04,157 WARN c.z.h.p.HikariPool$HouseKeeper:787 [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s796ms).
+2020-12-08 16:05:04,166 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:05:04,167 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:05:34,174 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:05:34,177 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:06:04,182 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:06:04,183 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:06:34,187 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:06:34,189 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:07:04,195 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:07:04,202 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:07:05,468 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@329d8e73: (connection has passed maxLifetime)
+2020-12-08 16:07:06,322 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1eb8f25f
+2020-12-08 16:07:13,931 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@32f6c175: (connection has passed maxLifetime)
+2020-12-08 16:07:14,202 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62133f3b
+2020-12-08 16:07:19,729 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@9a61727: (connection has passed maxLifetime)
+2020-12-08 16:07:19,987 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f5d0276
+2020-12-08 16:07:25,485 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c733da0: (connection has passed maxLifetime)
+2020-12-08 16:07:25,760 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1abfa5f
+2020-12-08 16:07:30,754 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4fd3c03c: (connection has passed maxLifetime)
+2020-12-08 16:07:31,015 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4096f064
+2020-12-08 16:07:34,203 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:07:34,204 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:07:37,378 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6fa24309: (connection has passed maxLifetime)
+2020-12-08 16:07:37,641 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2649ef19
+2020-12-08 16:07:38,443 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@47ff4be: (connection has passed maxLifetime)
+2020-12-08 16:07:38,692 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6774e522
+2020-12-08 16:07:42,555 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f257765: (connection has passed maxLifetime)
+2020-12-08 16:07:42,807 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56d901be
+2020-12-08 16:07:43,242 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6cf80b0b: (connection has passed maxLifetime)
+2020-12-08 16:07:43,517 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75b1a6d
+2020-12-08 16:07:48,407 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@40effae8: (connection has passed maxLifetime)
+2020-12-08 16:07:48,656 DEBUG c.z.h.p.HikariPool$PoolEntryCreator:728 [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ea42bb4
+2020-12-08 16:08:04,208 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:08:04,210 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:08:34,215 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:08:34,216 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:09:04,225 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:09:04,237 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:09:34,239 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:09:34,240 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:10:04,247 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:10:04,254 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:10:34,271 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:10:34,272 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:11:04,278 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:11:04,278 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:11:34,282 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:11:34,283 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:12:04,288 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:12:04,291 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:12:34,296 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:12:34,301 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:13:04,308 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:13:04,310 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:13:34,314 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:13:34,316 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:14:04,320 DEBUG c.z.h.p.HikariPool:421 [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:14:04,320 DEBUG c.z.h.p.HikariPool:517 [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2020-12-08 16:14:20,112 DEBUG o.s.c.s.AbstractApplicationContext:1056 [SpringContextShutdownHook] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e13529a, started on Mon Dec 07 18:06:49 ICT 2020
+2020-12-08 16:14:20,205 DEBUG o.s.c.s.DefaultLifecycleProcessor$LifecycleGroup:365 [SpringContextShutdownHook] Stopping beans in phase 2147483647
+2020-12-08 16:14:20,237 DEBUG o.s.c.s.DefaultLifecycleProcessor:238 [SpringContextShutdownHook] Bean 'webServerGracefulShutdown' completed its stop procedure
+2020-12-08 16:14:20,238 DEBUG o.s.c.s.DefaultLifecycleProcessor$LifecycleGroup:365 [SpringContextShutdownHook] Stopping beans in phase 2147483646
+2020-12-08 16:14:20,463 DEBUG o.s.c.s.DefaultLifecycleProcessor:238 [SpringContextShutdownHook] Bean 'webServerStartStop' completed its stop procedure
+2020-12-08 16:14:20,485 INFO o.s.o.j.AbstractEntityManagerFactoryBean:648 [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-08 16:14:20,494 DEBUG o.h.i.SessionFactoryImpl:775 [SpringContextShutdownHook] HHH000031: Closing
+2020-12-08 16:14:20,507 DEBUG o.h.t.s.TypeConfiguration$Scope:350 [SpringContextShutdownHook] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@19138da8] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@57ae84d7]
+2020-12-08 16:14:20,525 DEBUG o.h.s.i.AbstractServiceRegistryImpl:419 [SpringContextShutdownHook] Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2020-12-08 16:14:20,530 DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl:295 [SpringContextShutdownHook] Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2020-12-08 16:14:20,533 INFO o.s.s.c.ExecutorConfigurationSupport:218 [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-08 16:14:20,536 INFO c.z.h.HikariDataSource:350 [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-12-08 16:14:20,537 DEBUG c.z.h.p.HikariPool:421 [SpringContextShutdownHook] HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2020-12-08 16:14:20,546 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1eb8f25f: (connection evicted)
+2020-12-08 16:14:20,549 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@62133f3b: (connection evicted)
+2020-12-08 16:14:20,550 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4f5d0276: (connection evicted)
+2020-12-08 16:14:20,550 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1abfa5f: (connection evicted)
+2020-12-08 16:14:20,551 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4096f064: (connection evicted)
+2020-12-08 16:14:20,552 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2649ef19: (connection evicted)
+2020-12-08 16:14:20,553 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6774e522: (connection evicted)
+2020-12-08 16:14:20,555 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@56d901be: (connection evicted)
+2020-12-08 16:14:20,558 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@75b1a6d: (connection evicted)
+2020-12-08 16:14:20,559 DEBUG c.z.h.p.PoolBase:134 [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ea42bb4: (connection evicted)
+2020-12-08 16:14:20,566 DEBUG c.z.h.p.HikariPool:421 [SpringContextShutdownHook] HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2020-12-08 16:14:20,567 INFO c.z.h.HikariDataSource:352 [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
