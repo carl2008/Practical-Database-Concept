@@ -26,6 +26,11 @@ public class MovieController {
         return movieService.findAll();
     }
 
+    @GetMapping("{id}")
+    public Movie findMovieById(@PathVariable int id) {
+        return movieService.findById(id);
+    }
+
     @PostMapping("/v2")
     public void createNewMovie(@RequestBody Movie movie) {
         movieService.save(movie);
@@ -33,17 +38,7 @@ public class MovieController {
 
     @PutMapping(path = "/v2/{id}")
     public ResponseEntity<?> updateMovie(@RequestBody Movie movie, @PathVariable int id) {
-        try {
-            Movie existingMovie = movieService.findById(id);
-
-            movie.setId(id);
-
-            movieService.save(movie);
-
-            return new ResponseEntity<>(HttpStatus.OK);
-        } catch (NoSuchElementException e) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+        return movieService.update(movie, id);
     }
 
     @DeleteMapping(path = "/v2/{id}")

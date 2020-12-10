@@ -4,7 +4,10 @@ import com.rmit.Practical_Database_Concept.security.model.AuthenticationRequest;
 import com.rmit.Practical_Database_Concept.security.model.AuthenticationResponse;
 import com.rmit.Practical_Database_Concept.security.service.UserDetailService;
 import com.rmit.Practical_Database_Concept.security.util.JwtUtil;
+import com.rmit.Practical_Database_Concept.user.model.User;
+import com.rmit.Practical_Database_Concept.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -19,14 +22,21 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("api/authenticate")
 public class AuthenticationController {
 
-    @Autowired
-    private AuthenticationManager authenticationManager;
+    private final AuthenticationManager authenticationManager;
+
+    private final UserDetailService userDetailService;
+
+    private final JwtUtil jwtUtil;
+
+    private final UserService userService;
 
     @Autowired
-    private UserDetailService userDetailService;
-
-    @Autowired
-    private JwtUtil jwtUtil;
+    public AuthenticationController(AuthenticationManager authenticationManager, UserDetailService userDetailService, JwtUtil jwtUtil, UserService userService) {
+        this.authenticationManager = authenticationManager;
+        this.userDetailService = userDetailService;
+        this.jwtUtil = jwtUtil;
+        this.userService = userService;
+    }
 
     @PostMapping("/login")
     public ResponseEntity<?> createAuthenticationToken(@RequestBody AuthenticationRequest authenticationRequest) throws Exception {
@@ -44,4 +54,17 @@ public class AuthenticationController {
 
         return ResponseEntity.ok(new AuthenticationResponse(jwt));
     };
+
+    @PostMapping("/register")
+    public ResponseEntity<?> signUp(@RequestBody User user) {
+        ResponseEntity<User> userChecked = userService.findByUsername(user.getUsername());
+
+        if (userChecked.hasBody()) {
+            return new ResponseEntity<>("Username is existed",HttpStatus.FOUND);
+        }
+
+        userService.save(user);
+
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
 }
