@@ -16,6 +16,10 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Movie {
+    
+    @OneToMany(mappedBy="movie")
+    private Set<Timetable> timetalbe;
+    
     // Properties of Movie model
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
