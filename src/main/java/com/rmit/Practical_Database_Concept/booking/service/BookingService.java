@@ -38,13 +38,15 @@ public class BookingService {
     }
 
     public List<Booking> findBookingByUserId() {
-        Object objectId = servletRequest.getAttribute(REQUEST_USERNAME);
-
-        ResponseEntity<User> userResponseEntity = userService.findByUsername(objectId.toString());
-
-        User user = userResponseEntity.getBody();
+        User user = userService.findLoggedInUser();
 
         return bookingRepository.findBookingByUserId(user.getId());
+    }
+
+    public List<Booking> filterBookingByCheckedIn(int checkedInStatus) {
+        User user = userService.findLoggedInUser();
+
+        return bookingRepository.filter(user.getId(), checkedInStatus);
     }
 
     public Booking findById(int id) {
@@ -52,21 +54,14 @@ public class BookingService {
     }
 
     public void save(Booking booking, int movieId) {
-        Object objectId = servletRequest.getAttribute(REQUEST_USERNAME);
-
-        /**
-         * Refactor from User to ResponseEntity<User>
-         */
-        ResponseEntity<User> user = userService.findByUsername(objectId.toString());
-
         Movie movie = movieService.findById(movieId);
 
         booking.setMovieId(movie);
 
         /**
-         * Refactor from User to ResponseEntity<User>
+         * @return User user
          */
-        booking.setUserId(user.getBody());
+        booking.setUserId(userService.findLoggedInUser());
 
         bookingRepository.save(booking);
     }

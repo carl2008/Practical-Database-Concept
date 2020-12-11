@@ -30,8 +30,8 @@ public class BookingController {
     public void findAllBooking() {}
 
     @GetMapping("/v1/filter")
-    public void filterBookingByStatus(@Param("status") int status) {
-        
+    public List<Booking> filterBookingByCheckedIn(@Param("status") int status) {
+        return bookingService.filterBookingByCheckedIn(status);
     }
     /**
      * @param booking

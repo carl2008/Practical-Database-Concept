@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import javax.servlet.ServletRequest;
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -17,10 +18,15 @@ import java.util.UUID;
 @Service
 @Transactional
 public class UserService {
+    private static final String REQUEST_USERNAME = "request_username";
+
+    private ServletRequest servletRequest;
+
     private UserRepository userRepository;
 
     @Autowired
-    public UserService(UserRepository userRepository) {
+    public UserService(ServletRequest servletRequest, UserRepository userRepository) {
+        this.servletRequest = servletRequest;
         this.userRepository = userRepository;
     }
 
@@ -28,8 +34,12 @@ public class UserService {
         return userRepository.findAll();
     }
 
-    public User findOneById(int id) {
-        return userRepository.findOneById(id);
+    public User findLoggedInUser() {
+        Object objectId = servletRequest.getAttribute(REQUEST_USERNAME);
+
+        ResponseEntity<User> userResponseEntity = this.findByUsername(objectId.toString());
+
+        return userResponseEntity.getBody();
     }
 
     public ResponseEntity<User> findByUsername(String username) {
