@@ -1,13 +1,17 @@
 package com.rmit.Practical_Database_Concept.movie.model;
 
+import com.rmit.Practical_Database_Concept.timetable.entity.Timetable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+//import org.hibernate.mapping.Set;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "movie")
@@ -49,6 +53,15 @@ public class Movie {
 
     @Column
     private String description;
+
+    // MappedBy will use local table
+    @OneToMany(mappedBy="movie")
+    private Set<Timetable> timetable;
+
+    // Initialize the timetable
+    // Create a set<timetable> timetableSet = new Hashmap<Timetable>()
+    // timetableSet.add(timetable)
+    // movie.setTimetable(timetableSet)
 
     // toString
     @Override
