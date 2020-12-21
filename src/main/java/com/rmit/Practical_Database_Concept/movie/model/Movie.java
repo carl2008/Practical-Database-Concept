@@ -49,7 +49,7 @@ public class Movie {
     private String language;
 
     @Column
-    private String rated;
+    private int rated;
 
     @Column
     private String description;
