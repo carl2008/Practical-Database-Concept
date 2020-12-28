@@ -20,11 +20,12 @@ import java.util.UUID;
 public class UserService {
     private static final String REQUEST_USERNAME = "request_username";
 
+    @Autowired
     private ServletRequest servletRequest;
 
+    @Autowired
     private UserRepository userRepository;
 
-    @Autowired
     public UserService(ServletRequest servletRequest, UserRepository userRepository) {
         this.servletRequest = servletRequest;
         this.userRepository = userRepository;

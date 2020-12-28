@@ -1,19 +1,20 @@
 package com.rmit.Practical_Database_Concept.categories.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import org.hibernate.annotations.GenericGenerator;
+/*
+* import com.fasterxml.jackson.annotation.JsonProperty;
+* import org.hibernate.annotations.GenericGenerator;
+* import java.util.UUID;
+*/
 
+import lombok.*;
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
-import java.util.UUID;
 
 @Entity
 @Table(name = "Categories")
 @Getter
 @Setter
+@AllArgsConstructor
 @NoArgsConstructor
 public class Categories {
 
@@ -37,11 +38,11 @@ public class Categories {
     @NotBlank
     private String categories_description;
 
-    public Categories(@JsonProperty("id") int id,
-                      @JsonProperty("categories_name") String categories_name,
-                      @JsonProperty("categories_description") String categories_description) {
-        this.id = id;
-        this.categories_name = categories_name;
-        this.categories_description = categories_description;
-    }
+//    public Categories(@JsonProperty("id") int id,
+//                      @JsonProperty("categories_name") String categories_name,
+//                      @JsonProperty("categories_description") String categories_description) {
+//        this.id = id;
+//        this.categories_name = categories_name;
+//        this.categories_description = categories_description;
+//    }
 }

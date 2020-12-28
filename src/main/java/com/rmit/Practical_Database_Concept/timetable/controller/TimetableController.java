@@ -11,12 +11,12 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 @RestController
-@RequestMapping("api/v1/timetables")
+@RequestMapping("api/timetables")
 public class TimetableController {
 
+    @Autowired
     private final TimetableService timetableService;
 
-    @Autowired
     public TimetableController(TimetableService timetableService) {
         this.timetableService = timetableService;
     }
@@ -26,27 +26,17 @@ public class TimetableController {
         return timetableService.findAll();
     }
 
-    @PostMapping()
-    public void createNewTimetable(@RequestBody Timetable timetable) {
-        timetableService.save(timetable);
+    @PostMapping("/v2/{movieId}")
+    public ResponseEntity<?> createNewTimetable(@RequestBody Timetable timetable, @PathVariable int movieId) {
+        return timetableService.save(timetable, movieId);
     }
 
-    @PutMapping(path = "{id}")
-    public ResponseEntity<?> updateTimetable(@RequestBody Timetable timetable, @PathVariable int id) {
-        try {
-            Timetable existingTimetable = timetableService.findById(id);
-
-            timetable.setId(id);
-
-            timetableService.save(timetable);
-
-            return new ResponseEntity<>(HttpStatus.OK);
-        } catch (NoSuchElementException e) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+    @PutMapping(path = "/v2/{id}")
+    public ResponseEntity<?> updateTimetable(@RequestBody Timetable timetable, @PathVariable int timeTableId) {
+        return timetableService.update(timetable, timeTableId);
     }
 
-    @DeleteMapping(path = "{id}")
+    @DeleteMapping(path = "/v2/{id}")
     public void delete(@PathVariable int id) {
         timetableService.delete(id);
     }

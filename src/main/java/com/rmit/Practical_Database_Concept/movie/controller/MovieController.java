@@ -1,22 +1,22 @@
 package com.rmit.Practical_Database_Concept.movie.controller;
 
+import com.rmit.Practical_Database_Concept.movie.collection.MovieCollection;
 import com.rmit.Practical_Database_Concept.movie.model.Movie;
 import com.rmit.Practical_Database_Concept.movie.service.MovieService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.NoSuchElementException;
 
 @RestController
 @RequestMapping("api/movies")
 public class MovieController {
 
+    @Autowired
     private final MovieService movieService;
 
-    @Autowired
     public MovieController(MovieService movieService) {
         this.movieService = movieService;
     }
@@ -32,8 +32,8 @@ public class MovieController {
     }
 
     @PostMapping("/v2")
-    public void createNewMovie(@RequestBody Movie movie) {
-        movieService.save(movie);
+    public void save(@RequestBody MovieCollection movieCollection) {
+        movieService.save(movieCollection);
     }
 
     @PutMapping(path = "/v2/{id}")

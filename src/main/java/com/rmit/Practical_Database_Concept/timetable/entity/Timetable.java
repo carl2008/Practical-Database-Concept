@@ -1,5 +1,6 @@
 package com.rmit.Practical_Database_Concept.timetable.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.rmit.Practical_Database_Concept.movie.model.Movie;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,6 +10,9 @@ import lombok.Setter;
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import java.io.Serializable;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "timetable")
@@ -16,7 +20,7 @@ import javax.validation.constraints.NotNull;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Timetable {
+public class Timetable implements Serializable {
     // Properties of Timetable entity
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -32,10 +36,9 @@ public class Timetable {
     @NotNull
     private int seat_available;
 
-    @ManyToOne
-    @JoinColumn(name="movie_id", nullable = false)
-    @NotBlank
-    @NotNull
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "movie_id", nullable = false)
+    @JsonIgnoreProperties({ "movie" })
     private Movie movie;
 
     @Override

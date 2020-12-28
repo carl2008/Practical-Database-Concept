@@ -21,15 +21,18 @@ import java.util.NoSuchElementException;
 public class BookingService {
     private static final String REQUEST_USERNAME = "request_username";
 
+    @Autowired
     private ServletRequest servletRequest;
 
+    @Autowired
     private MovieService movieService;
 
+    @Autowired
     private final UserService userService;
 
+    @Autowired
     private final BookingRepository bookingRepository;
 
-    @Autowired
     public BookingService(UserService userService, MovieService movieService, BookingRepository bookingRepository, ServletRequest servletRequest) {
         this.userService = userService;
         this.movieService = movieService;

@@ -1,21 +1,30 @@
 package com.rmit.Practical_Database_Concept.timetable.service;
 
+import com.rmit.Practical_Database_Concept.movie.model.Movie;
+import com.rmit.Practical_Database_Concept.movie.service.MovieService;
 import com.rmit.Practical_Database_Concept.timetable.entity.Timetable;
 import com.rmit.Practical_Database_Concept.timetable.repositories.TimetableRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Optional;
 
 @Service
 public class TimetableService {
 
+    @Autowired
     private final TimetableRepository timetableRepository;
 
     @Autowired
-    public TimetableService(TimetableRepository timetableRepository) {
+    private final MovieService movieService;
+
+    public TimetableService(TimetableRepository timetableRepository, MovieService movieService) {
         this.timetableRepository = timetableRepository;
+        this.movieService = movieService;
     }
 
     public List<Timetable> findAll() {
@@ -38,8 +47,32 @@ public class TimetableService {
         return movie;
     }
 
-    public void save(Timetable timetable) {
-        timetableRepository.save(timetable);
+    public ResponseEntity<?> save(Timetable timetable, int movieId) {
+        try {
+            Movie movie = movieService.findById(movieId);
+
+            timetable.setMovie(movie);
+
+            timetableRepository.save(timetable);
+
+            return new ResponseEntity<>(HttpStatus.OK);
+        } catch (NoSuchElementException e) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    public ResponseEntity<?> update(Timetable timetable, int timeTableId) {
+        try {
+            Timetable existTimeTable = timetableRepository.findOneById(timeTableId);
+
+            timetable.setId(timeTableId);
+
+            timetableRepository.save(timetable);
+
+            return new ResponseEntity<>(HttpStatus.OK);
+        } catch (NoSuchElementException e) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
     }
 
     public void delete(int id) {

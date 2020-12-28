@@ -1,7 +1,9 @@
 package com.rmit.Practical_Database_Concept.movie.service;
 
+import com.rmit.Practical_Database_Concept.movie.collection.MovieCollection;
 import com.rmit.Practical_Database_Concept.movie.model.Movie;
 import com.rmit.Practical_Database_Concept.movie.repositories.MovieRepository;
+import com.rmit.Practical_Database_Concept.timetable.entity.Timetable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,9 +16,9 @@ import java.util.Optional;
 @Service
 public class MovieService {
 
+    @Autowired
     private final MovieRepository movieRepository;
 
-    @Autowired
     public MovieService(MovieRepository movieRepository) {
         this.movieRepository = movieRepository;
     }
@@ -41,7 +43,33 @@ public class MovieService {
         return movie;
     }
 
-    public void save(Movie movie) {
+//    public void save(Movie movie) {
+//        movieRepository.save(movie);
+//    }
+
+    public void save(MovieCollection movieCollection) {
+        List<Object> timetable = movieCollection.getTimetable();
+
+        Movie movie = new Movie();
+
+        movie.setMovieName(movieCollection.getMovieName());
+
+        movie.setDirectors(movieCollection.getDirectors());
+
+        movie.setCast(movieCollection.getCast());
+
+        movie.setCategory(movieCollection.getCategory());
+
+        movie.setPremiere(movieCollection.getPremiere());
+
+        movie.setDuration(movieCollection.getDuration());
+
+        movie.setLanguage(movieCollection.getLanguage());
+
+        movie.setRated(movieCollection.getRated());
+
+        movie.setDescription(movieCollection.getDescription());
+
         movieRepository.save(movie);
     }
 

@@ -14,9 +14,9 @@ import java.util.Optional;
 
 @Service
 public class UserDetailService implements UserDetailsService {
+    @Autowired
     private final UserRepository userRepository;
 
-    @Autowired
     public UserDetailService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }

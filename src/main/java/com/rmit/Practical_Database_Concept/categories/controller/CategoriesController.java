@@ -12,12 +12,12 @@ import java.util.NoSuchElementException;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("api/v1/categories")
+@RequestMapping("api/categories")
 public class CategoriesController {
 
+    @Autowired
     private final CategoriesService categoriesService;
 
-    @Autowired
     public CategoriesController(CategoriesService categoriesService) {
         this.categoriesService = categoriesService;
     }
@@ -32,12 +32,12 @@ public class CategoriesController {
         return categoriesService.findById(id);
     }
 
-    @PostMapping()
+    @PostMapping("/v2")
     public void createNewCategory(@RequestBody Categories categories) {
         categoriesService.save(categories);
     }
 
-    @PutMapping(path = "{id}")
+    @PutMapping(path = "/v2/{id}")
     public ResponseEntity<?> updateCategory(@RequestBody Categories categories, @PathVariable int id) {
         return categoriesService.update(categories, id);
     }

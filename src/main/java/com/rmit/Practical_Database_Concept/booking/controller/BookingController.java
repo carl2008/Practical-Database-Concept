@@ -14,9 +14,9 @@ import java.util.UUID;
 @RequestMapping("api/booking")
 public class BookingController {
 
+    @Autowired
     private BookingService bookingService;
 
-    @Autowired
     public BookingController(BookingService bookingService) {
         this.bookingService = bookingService;
     }

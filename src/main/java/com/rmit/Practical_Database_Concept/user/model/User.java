@@ -29,12 +29,12 @@ public class User {
     @Column(name = "username", unique=true, nullable = false)
     private String username;
 
-    @Column(name = "password")
+    @Column(name = "password", nullable = false)
     private String password;
 
-    @Column(name = "roles")
+    @Column(name = "roles", columnDefinition = "NOT NULL DEFAULT ROLE_USER")
     private String roles;
 
-    @Column(name = "is_active")
+    @Column(name = "is_active", columnDefinition = "NOT NULL DEFAULT 1")
     private boolean isActive;
 }

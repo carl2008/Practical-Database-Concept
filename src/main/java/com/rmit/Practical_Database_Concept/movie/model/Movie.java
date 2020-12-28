@@ -1,5 +1,6 @@
 package com.rmit.Practical_Database_Concept.movie.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.rmit.Practical_Database_Concept.timetable.entity.Timetable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,9 +10,8 @@ import lombok.Setter;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
-import java.util.Date;
-import java.util.List;
-import java.util.Set;
+import java.io.Serializable;
+import java.util.*;
 
 @Entity
 @Table(name = "movie")
@@ -19,7 +19,7 @@ import java.util.Set;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Movie {
+public class Movie implements Serializable {
     // Properties of Movie model
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -51,17 +51,13 @@ public class Movie {
     @Column
     private String rated;
 
-    @Column
+    @Column(columnDefinition = "text")
     private String description;
 
-    // MappedBy will use local table
-    @OneToMany(mappedBy="movie")
-    private Set<Timetable> timetable;
-
-    // Initialize the timetable
-    // Create a set<timetable> timetableSet = new Hashmap<Timetable>()
-    // timetableSet.add(timetable)
-    // movie.setTimetable(timetableSet)
+    @OneToMany(mappedBy = "movie", fetch = FetchType.LAZY,
+            cascade = CascadeType.ALL)
+    @JsonIgnoreProperties({ "movie" })
+    private Set<Timetable> timetables;
 
     // toString
     @Override
