@@ -1,6 +1,8 @@
 package com.rmit.Practical_Database_Concept.booking.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.rmit.Practical_Database_Concept.movie.model.Movie;
+import com.rmit.Practical_Database_Concept.timetable.entity.Timetable;
 import com.rmit.Practical_Database_Concept.user.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,6 +12,7 @@ import lombok.Setter;
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import java.util.Set;
 
 @Entity
 @Table(name = "booking")
@@ -23,11 +26,9 @@ public class Booking {
     @Column(name = "id", updatable = false, nullable = false, unique = true)
     private int id;
 
-    @ManyToOne
-    @JoinColumn(name="movie_id", nullable = false)
-    @NotBlank
-    @NotNull
-    private Movie movieId;
+    @ManyToOne( fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name = "timetable_id", nullable = false)
+    private Timetable timetableId;
 
     @ManyToOne
     @JoinColumn(name="user_id", nullable = false)

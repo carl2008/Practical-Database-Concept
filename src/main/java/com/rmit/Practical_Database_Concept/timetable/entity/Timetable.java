@@ -1,6 +1,7 @@
 package com.rmit.Practical_Database_Concept.timetable.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.rmit.Practical_Database_Concept.booking.model.Booking;
 import com.rmit.Practical_Database_Concept.movie.model.Movie;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -40,6 +41,10 @@ public class Timetable implements Serializable {
     @JoinColumn(name = "movie_id", nullable = false)
     @JsonIgnoreProperties({ "movie" })
     private Movie movie;
+
+    @OneToMany
+//    @JsonIgnoreProperties({ "timetable" })
+    private Set<Booking> bookings;
 
     @Override
     public String toString() {

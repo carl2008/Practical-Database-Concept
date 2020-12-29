@@ -49,7 +49,7 @@ public class Movie implements Serializable {
     private String language;
 
     @Column
-    private String rated;
+    private int rated;
 
     @Column(columnDefinition = "text")
     private String description;

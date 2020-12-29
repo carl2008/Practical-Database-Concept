@@ -4,6 +4,8 @@ import com.rmit.Practical_Database_Concept.booking.model.Booking;
 import com.rmit.Practical_Database_Concept.booking.repository.BookingRepository;
 import com.rmit.Practical_Database_Concept.movie.model.Movie;
 import com.rmit.Practical_Database_Concept.movie.service.MovieService;
+import com.rmit.Practical_Database_Concept.timetable.entity.Timetable;
+import com.rmit.Practical_Database_Concept.timetable.service.TimetableService;
 import com.rmit.Practical_Database_Concept.user.model.User;
 import com.rmit.Practical_Database_Concept.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,9 +35,13 @@ public class BookingService {
     @Autowired
     private final BookingRepository bookingRepository;
 
-    public BookingService(UserService userService, MovieService movieService, BookingRepository bookingRepository, ServletRequest servletRequest) {
+    @Autowired
+    private final TimetableService timetableService;
+
+    public BookingService(UserService userService, MovieService movieService, TimetableService timetableService, BookingRepository bookingRepository, ServletRequest servletRequest) {
         this.userService = userService;
         this.movieService = movieService;
+        this.timetableService = timetableService;
         this.bookingRepository = bookingRepository;
         this.servletRequest = servletRequest;
     }
@@ -56,10 +62,13 @@ public class BookingService {
         return bookingRepository.findOneById(id);
     }
 
-    public void save(Booking booking, int movieId) {
-        Movie movie = movieService.findById(movieId);
+    public void save(Booking booking, int timetableId) {
+        Timetable timetable = timetableService.findById(timetableId);
 
-        booking.setMovieId(movie);
+        booking.setTimetableId(timetable);
+//        Movie movie = movieService.findById(movieId);
+
+//        booking.setMovieId(movie);
 
         /**
          * @return User user

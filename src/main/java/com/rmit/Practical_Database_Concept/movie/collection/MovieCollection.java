@@ -23,7 +23,7 @@ public class MovieCollection {
 
     private String language;
 
-    private String rated;
+    private int rated;
 
     private String description;
 
