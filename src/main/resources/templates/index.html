@@ -1,16 +1,125 @@
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<!--<head>-->
+<!--    <title>Home page</title>-->
+<!--    <meta charset="UTF-8"/>-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div>-->
+<!--        <p>-->
+<!--            Welcome to the Spring Boot Thymeleaf example post-->
+<!--            Get started quickly by signing up.-->
+<!--        </p>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
 <head>
-    <title>Home page</title>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Movie List</title>
 </head>
+
 <body>
-    <div>
-        <p>
-            Welcome to the Spring Boot Thymeleaf example post
-            Get started quickly by signing up.
-        </p>
-    </div>
+
+<div class="container">
+
+<!--    <nav class="navbar navbar-expand-sm bg-light bg-dark navbar-dark justify-content-center">-->
+<!--        <ul class="navbar-nav">-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" th:href="@{/admin/movie/list}">Movie</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" th:href="@{/admin/reservation/list}">Reservation</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" th:href="@{/admin/user/list}">User</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" th:href="@{/admin/user_profile/list}">User Profile</a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </nav>-->
+
+<!--    <form class="form-inline my-1" th:action="@{/home/register}"  method="POST">-->
+
+<!--        &lt;!&ndash; Add hidden form field to handle update &ndash;&gt;-->
+<!--        <div th:object="${user}">-->
+<!--            <input type="hidden" th:field="*{id}"/>-->
+
+<!--            <input type="text" th:field="*{username}"-->
+<!--                   class="form-control form-control-sm mr-sm-2 mb-0" placeholder="User Name">-->
+
+<!--            <input type="password" th:field="*{password}"-->
+<!--                   class="form-control form-control-sm mr-sm-2 mb-0" placeholder="Password">-->
+<!--            <input type="hidden" th:field="*{roles}" placeholder="Role">-->
+<!--            <input type="hidden" th:field="*{is_active}" placeholder="Role">-->
+<!--        </div>-->
+
+    <h3>Movie List</h3>
+    <hr>
+    <br>
+
+    <!-- Search form -->
+<!--    <form th:action="@{/admin/movie/list}" method = "get">-->
+<!--        <label for="txtSearch">-->
+<!--            <input id="txtSearch" type="text" name="keyword">-->
+<!--        </label>-->
+<!--        <button type="submit">Find movie</button>-->
+<!--    </form>-->
+
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+        <tr>
+            <th>Movie Name</th>
+            <th>Category</th>
+            <th>Rated</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr th:each="tempMovie : ${movies}">
+            <td th:text="${tempMovie.movieName}"></td>
+            <td th:text="${tempMovie.category}"></td>
+            <td th:text="${tempMovie.rated}"></td>
+
+            <!-- update functions -->
+            <td>
+                <a th:href = "@{/home/detail(movieId = ${tempMovie.id})}"
+                   class = "btn btn-warning">
+                    Detail
+                </a>
+<!--                <a class="btn btn-danger"-->
+<!--                   onclick="if (!(confirm('Are you sure want to delete this movie ???'))) return false"-->
+<!--                   th:href="@{/admin/movie/delete(movieId = ${tempMovie.id})}">-->
+<!--                    Delete-->
+<!--                </a>-->
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <!-- Add a button -->
+<!--    <a th:href="@{/admin/movie/showFormForAdd}"-->
+<!--       class="btn btn-primary btn-sm mb-3">-->
+<!--        Add Movie-->
+<!--    </a>-->
+
+<!--    <a th:href="@{/home/index}"-->
+<!--       class="btn btn-primary btn-sm mb-3">-->
+<!--        Back to User Movie List-->
+<!--    </a>-->
+</div>
+
 </body>
 </html>

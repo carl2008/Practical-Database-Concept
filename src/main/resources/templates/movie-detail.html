@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Movie Detail</title>
+</head>
+<body>
+    <h3>Movie Detail</h3>
+    <hr>
+    <br>
+
+    <table class="table table-bordered table-striped" th:object="${movie}">
+        <tbody>
+            <tr>
+                <td>Movie Name</td>
+                <td th:text="${movie.movieName}"></td>
+            </tr>
+            <tr>
+                <td>Directors</td>
+                <td th:text="${movie.directors}"></td>
+            </tr>
+            <tr>
+                <td>Cast</td>
+                <td th:text="${movie.cast}"></td>
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td th:text="${movie.category}"></td>
+            </tr>
+            <tr>
+                <td>Premiere</td>
+                <td th:text="${movie.premiere}"></td>
+            </tr>
+            <tr>
+                <td>Duration</td>
+                <td th:text="${movie.duration}"></td>
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td th:text="${movie.language}"></td>
+            </tr>
+            <tr>
+                <td>Rated</td>
+                <td th:text="${movie.rated}"></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td th:text="${movie.description}"></td>
+            </tr>
+        </tbody>
+    </table>
+    <a th:href = "@{/home/list}" class = "btn btn-danger">
+        Back to Homepage
+    </a>
+
+</body>
+</html>
