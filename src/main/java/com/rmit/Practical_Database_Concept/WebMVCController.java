@@ -13,7 +13,7 @@ public class WebMVCController {
         return "index";
     }
 
-    @GetMapping("/sub")
+    @GetMapping("/movie")
     public String getSubPage() {
         return "movie/index";
     }
