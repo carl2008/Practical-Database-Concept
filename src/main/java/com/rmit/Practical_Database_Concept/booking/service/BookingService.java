@@ -46,8 +46,10 @@ public class BookingService {
         this.servletRequest = servletRequest;
     }
 
-    public List<Booking> findBookingByUserId() {
-        User user = userService.findLoggedInUser();
+    public List<Booking> findBookingByUserId(int userId) {
+//        User user = userService.findLoggedInUser();
+
+        User user = userService.findUserById(userId).getBody();
 
         return bookingRepository.findBookingByUserId(user.getId());
     }

@@ -21,9 +21,14 @@ public class BookingController {
         this.bookingService = bookingService;
     }
 
-    @GetMapping("/v1")
-    public List<Booking> findBookingByUserId() {
-        return bookingService.findBookingByUserId();
+//    @GetMapping("/v1")
+//    public List<Booking> findBookingByUserId() {
+//        return bookingService.findBookingByUserId();
+//    }
+
+    @GetMapping("/find/{userId}")
+    public List<Booking> findBookingByUserId(@PathVariable int userId) {
+        return bookingService.findBookingByUserId(userId);
     }
 
     @GetMapping("/v1/filter")
