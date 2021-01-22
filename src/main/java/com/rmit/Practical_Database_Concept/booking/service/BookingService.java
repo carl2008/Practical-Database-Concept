@@ -50,14 +50,17 @@ public class BookingService {
     }
 
     public void deleteByUserId(int userId) {
-        List<Booking> bookingId = findBookingByUserId(userId);
-        bookingRepository.deleteById(bookingId);
+        List<Booking> bookings = this.findBookingByUserId(userId);
+
+        bookingRepository.deleteAll(bookings);
     }
 
 
 
-    public List<Booking> findBookingByUserId() {
-        User user = userService.findLoggedInUser();
+    public List<Booking> findBookingByUserId(int userId) {
+//        User user = userService.findLoggedInUser();
+
+        User user = userService.findById(userId);
 
         return bookingRepository.findBookingByUserId(user.getId());
     }

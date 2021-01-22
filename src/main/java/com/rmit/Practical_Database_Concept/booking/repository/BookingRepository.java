@@ -22,4 +22,5 @@ public interface BookingRepository extends JpaRepository<Booking, Integer> {
         nativeQuery = true
     )
     List<Booking> filter(Integer userId, Integer status);
+
 }
