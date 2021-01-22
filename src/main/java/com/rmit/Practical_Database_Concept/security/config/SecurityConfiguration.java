@@ -40,6 +40,10 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             .requestMatchers(req-> req.getRequestURI().contains("/v1")).authenticated()
             .requestMatchers(req-> req.getRequestURI().contains("/v2")).hasRole("ADMIN")
             .anyRequest().permitAll()
+//            .and()
+//                .formLogin()
+//                .loginPage("/login")
+//                .permitAll()
             .and()
             .sessionManagement()
             .sessionCreationPolicy(SessionCreationPolicy.STATELESS);

@@ -62,18 +62,16 @@ public class BookingService {
         return bookingRepository.findOneById(id);
     }
 
-    public void save(Booking booking, int timetableId) {
+    public void save(Booking booking, int timetableId, int userId) {
         Timetable timetable = timetableService.findById(timetableId);
 
         booking.setTimetableId(timetable);
-//        Movie movie = movieService.findById(movieId);
 
-//        booking.setMovieId(movie);
+        User user = userService.findUserById(userId).getBody();
 
-        /**
-         * @return User user
-         */
-        booking.setUserId(userService.findLoggedInUser());
+        booking.setUserId(user);
+
+//        booking.setUserId(userService.findLoggedInUser());
 
         bookingRepository.save(booking);
     }

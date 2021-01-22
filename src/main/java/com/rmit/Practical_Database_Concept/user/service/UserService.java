@@ -41,6 +41,19 @@ public class UserService {
         ResponseEntity<User> userResponseEntity = this.findByUsername(objectId.toString());
 
         return userResponseEntity.getBody();
+
+        // dirty plan for database concept
+
+    }
+
+    public ResponseEntity<User> findUserById(int id) {
+        try {
+            User user = userRepository.findOneById(id);
+
+            return new ResponseEntity<User>(user, HttpStatus.OK);
+        } catch (NoSuchElementException e) {
+            return new ResponseEntity<User>(HttpStatus.NOT_FOUND);
+        }
     }
 
     public ResponseEntity<User> findByUsername(String username) {

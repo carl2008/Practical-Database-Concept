@@ -31,17 +31,32 @@ public class MovieController {
         return movieService.findById(id);
     }
 
-    @PostMapping("/v2")
+//    @PostMapping("/v2")
+//    public void save(@RequestBody MovieCollection movieCollection) {
+//        movieService.save(movieCollection);
+//    }
+
+    @PostMapping("/save")
     public void save(@RequestBody MovieCollection movieCollection) {
         movieService.save(movieCollection);
     }
 
-    @PutMapping(path = "/v2/{id}")
+//    @PutMapping(path = "/v2/{id}")
+//    public ResponseEntity<?> updateMovie(@RequestBody Movie movie, @PathVariable int id) {
+//        return movieService.update(movie, id);
+//    }
+
+    @PutMapping(path = "/update/{id}")
     public ResponseEntity<?> updateMovie(@RequestBody Movie movie, @PathVariable int id) {
         return movieService.update(movie, id);
     }
 
-    @DeleteMapping(path = "/v2/{id}")
+//    @DeleteMapping(path = "/v2/{id}")
+//    public void delete(@PathVariable int id) {
+//        movieService.delete(id);
+//    }
+
+    @DeleteMapping(path = "/delete/{id}")
     public void delete(@PathVariable int id) {
         movieService.delete(id);
     }

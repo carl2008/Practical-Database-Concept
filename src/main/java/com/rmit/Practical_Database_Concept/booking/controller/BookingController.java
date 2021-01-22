@@ -26,28 +26,41 @@ public class BookingController {
         return bookingService.findBookingByUserId();
     }
 
-    @GetMapping("/v2")
-    public void findAllBooking() {}
-
     @GetMapping("/v1/filter")
     public List<Booking> filterBookingByCheckedIn(@Param("status") int status) {
         return bookingService.filterBookingByCheckedIn(status);
     }
     /**
      * @param booking
-     * @param movieId
+     * @param timetableId
+     * @param userId -- dirty plan
      */
-    @PostMapping("{movieId}/v1")
-    public void save(@RequestBody Booking booking, @PathVariable int movieId) {
-        bookingService.save(booking, movieId);
+//    @PostMapping("{movieId}/v1")
+//    public void save(@RequestBody Booking booking, @PathVariable int movieId) {
+//        bookingService.save(booking, movieId);
+//    }
+
+    @PostMapping("/save/{timetableId}/{userId}")
+    public void save(@RequestBody Booking booking, @PathVariable int timetableId, @PathVariable int userId) {
+        bookingService.save(booking, timetableId, userId);
     }
 
-    @PutMapping("{bookingId}/v1")
+//    @PutMapping("{bookingId}/v1")
+//    public ResponseEntity<?> update(@RequestBody Booking booking, @PathVariable int bookingId) {
+//        return bookingService.update(booking, bookingId);
+//    }
+
+    @PutMapping("/update/{bookingId}")
     public ResponseEntity<?> update(@RequestBody Booking booking, @PathVariable int bookingId) {
         return bookingService.update(booking, bookingId);
     }
 
-    @DeleteMapping("{bookingId}/v1")
+//    @DeleteMapping("{bookingId}/v1")
+//    public ResponseEntity<?> delete(@PathVariable int bookingId) {
+//        return bookingService.delete(bookingId);
+//    };
+
+    @DeleteMapping("/delete/{bookingId}")
     public ResponseEntity<?> delete(@PathVariable int bookingId) {
         return bookingService.delete(bookingId);
     };

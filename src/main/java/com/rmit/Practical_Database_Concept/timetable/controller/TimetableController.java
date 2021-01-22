@@ -26,17 +26,32 @@ public class TimetableController {
         return timetableService.findAll();
     }
 
-    @PostMapping("/v2/{movieId}")
+//    @PostMapping("/v2/{movieId}")
+//    public ResponseEntity<?> createNewTimetable(@RequestBody Timetable timetable, @PathVariable int movieId) {
+//        return timetableService.save(timetable, movieId);
+//    }
+
+    @PostMapping("/save/{movieId}")
     public ResponseEntity<?> createNewTimetable(@RequestBody Timetable timetable, @PathVariable int movieId) {
         return timetableService.save(timetable, movieId);
     }
 
-    @PutMapping(path = "/v2/{id}")
+//    @PutMapping(path = "/v2/{id}")
+//    public ResponseEntity<?> updateTimetable(@RequestBody Timetable timetable, @PathVariable int timeTableId) {
+//        return timetableService.update(timetable, timeTableId);
+//    }
+
+    @PutMapping(path = "/update/{id}")
     public ResponseEntity<?> updateTimetable(@RequestBody Timetable timetable, @PathVariable int timeTableId) {
         return timetableService.update(timetable, timeTableId);
     }
 
-    @DeleteMapping(path = "/v2/{id}")
+//    @DeleteMapping(path = "/v2/{id}")
+//    public void delete(@PathVariable int id) {
+//        timetableService.delete(id);
+//    }
+
+    @DeleteMapping(path = "/delete/{id}")
     public void delete(@PathVariable int id) {
         timetableService.delete(id);
     }
