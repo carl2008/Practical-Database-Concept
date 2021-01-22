@@ -45,6 +45,9 @@ public class BookingService {
         this.bookingRepository = bookingRepository;
         this.servletRequest = servletRequest;
     }
+    public List<Booking> findAll() {
+        return bookingRepository.findAll();
+    }
 
     public List<Booking> findBookingByUserId() {
         User user = userService.findLoggedInUser();
