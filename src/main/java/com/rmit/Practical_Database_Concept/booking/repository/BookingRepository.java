@@ -18,6 +18,12 @@ public interface BookingRepository extends JpaRepository<Booking, Integer> {
     public List<Booking> findBookingByUserId(Integer userId);
 
     @Query(
+            value = "SELECT * FROM booking b WHERE b.timetable_id = ?1",
+            nativeQuery = true
+    )
+    public List<Booking> findBookingByTimetableId(Integer timetableId);
+
+    @Query(
         value = "SELECT * FROM booking b WHERE b.user_id = ?1 AND b.is_checked_in = ?2",
         nativeQuery = true
     )

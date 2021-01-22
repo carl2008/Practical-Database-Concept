@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Timetable Editor</title>
+</head>
+<body>
+
+<div class="container">
+
+    <h3>Timetable Editor</h3>
+    <hr>
+
+    <p class="h4 mb-4">Save Timetable</p>
+
+    <form action="#" th:action="@{/api/timetables/save}"
+          th:object="${timetable}" method="POST">
+
+        <!-- Add hidden form field to handle update -->
+        <input type="hidden" th:field="*{id}"/>
+        <p>Time Slot</p>
+        <input type="text" th:field="*{timeslot}"
+               class="form-control mbz-4 col-4" placeholder="Time slot">
+        <p>Seat Available</p>
+        <input type="text" th:field="*{seat_available}"
+               class="form-control mb-4 col-4" placeholder="Seat available">
+
+        <input type="text" th:field="*{movie}"
+               class="form-control mb-4 col-4" placeholder="Movie id">
+
+
+        <button type="submit" class="btn btn-info col-2">Save</button>
+
+    </form>
+
+    <hr>
+    <a th:href="@{/api/timetables/list}">Back to Timetable List</a>
+
+</div>
+
+</body>
+</html>

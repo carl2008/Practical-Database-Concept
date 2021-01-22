@@ -4,6 +4,7 @@ import com.rmit.Practical_Database_Concept.movie.model.Movie;
 import com.rmit.Practical_Database_Concept.movie.service.MovieService;
 import com.rmit.Practical_Database_Concept.timetable.entity.Timetable;
 import com.rmit.Practical_Database_Concept.timetable.repositories.TimetableRepository;
+import com.rmit.Practical_Database_Concept.user.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -80,5 +81,8 @@ public class TimetableService {
 
     public void delete(int id) {
         timetableRepository.deleteById(id);
+    }
+    public void create(Timetable timetable) {
+        timetableRepository.save(timetable);
     }
 }

@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
 
 import javax.servlet.ServletRequest;
 import javax.transaction.Transactional;
+import java.sql.Time;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -54,6 +55,11 @@ public class BookingService {
 
         bookingRepository.deleteAll(bookings);
     }
+    public void deleteByTimetableId(int timetableId) {
+        List<Booking> bookings = this.findBookingByTimetableId(timetableId);
+
+        bookingRepository.deleteAll(bookings);
+    }
 
     public List<Booking> findBookingByUserId(int userId) {
 //        User user = userService.findLoggedInUser();
@@ -61,6 +67,13 @@ public class BookingService {
         User user = userService.findById(userId);
 
         return bookingRepository.findBookingByUserId(user.getId());
+    }
+    public List<Booking> findBookingByTimetableId(int timetableId) {
+//        User user = userService.findLoggedInUser();
+
+       Timetable timetable = timetableService.findById(timetableId);
+
+        return bookingRepository.findBookingByTimetableId(timetable.getId());
     }
 
     public List<Booking> filterBookingByCheckedIn(int checkedInStatus) {

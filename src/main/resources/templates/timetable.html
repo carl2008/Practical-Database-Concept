@@ -59,24 +59,24 @@
 
             <!-- update functions -->
             <td>
-<!--                <a th:href = "@{/admin/user/showFormForUpdate(userId = ${tempUser.id})}"-->
-<!--                   class = "btn btn-warning">-->
-<!--                    Update-->
-<!--                </a>-->
-<!--                <a class="btn btn-danger"-->
-<!--                   onclick="if (!(confirm('Are you sure want to delete this user ???'))) return false"-->
-<!--                   th:href="@{/admin/user/delete(userId = ${tempUser.id})}">-->
-<!--                    Delete-->
-<!--                </a>-->
+                <a th:href = "@{/api/timetables/showFormForUpdate(timetableId = ${tempTimetable.id})}"
+                   class = "btn btn-warning">
+                    Update
+                </a>
+                <a class="btn btn-danger"
+                   onclick="if (!(confirm('Are you sure want to delete this user ???'))) return false"
+                   th:href="@{/api/timetables/delete(timetableId = ${tempTimetable.id})}">
+                    Delete
+                </a>
             </td>
         </tr>
         </tbody>
     </table>
-    <!-- Add a button -->
-<!--    <a th:href="@{/admin/user/showFormForAdd}"-->
-<!--       class="btn btn-primary btn-sm mb-3">-->
-<!--        Add User-->
-<!--    </a>-->
+<!--     Add a button-->
+    <a th:href="@{/api/timetables/showFormForAdd}"
+       class="btn btn-primary btn-sm mb-3">
+        Add Timetable
+    </a>
 <!--    <a th:href="@{/home/index}"-->
 <!--       class="btn btn-primary btn-sm mb-3">-->
 <!--        Back to Homepage-->
