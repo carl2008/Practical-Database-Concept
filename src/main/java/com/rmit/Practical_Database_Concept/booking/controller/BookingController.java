@@ -33,6 +33,44 @@ public class BookingController {
         return "booking";
     }
 
+    @GetMapping("/showFormForAdd")
+    public String showFormForAdd(Model theModel) {
+
+        Booking booking = new Booking();
+
+        theModel.addAttribute("booking", booking);
+
+        return "addUpdate/booking";
+    }
+
+    @GetMapping("/showFormForUpdate")
+    public String showFormForUpdate(@RequestParam("bookingId")int theId, Model theModel){
+
+        Booking booking = bookingService.findById(theId);
+
+        theModel.addAttribute("booking", booking);
+
+        return "addUpdate/booking";
+    }
+
+    @PostMapping("/save")
+    public String saveBooking(@ModelAttribute("booking") Booking booking) {
+
+        // save the employee
+        bookingService.save(booking);
+
+        // use a redirect to prevent duplicate submissions
+        return "redirect:/api/booking/list";
+    }
+
+    @GetMapping("/delete")
+    public String delete(@RequestParam("bookingId")int theId){
+
+        bookingService.delete(theId);
+
+        return "redirect:/api/booking/list";
+    }
+
     @GetMapping("/v1/filter")
     public List<Booking> filterBookingByCheckedIn(@Param("status") int status) {
         return bookingService.filterBookingByCheckedIn(status);
@@ -47,28 +85,28 @@ public class BookingController {
 //        bookingService.save(booking, movieId);
 //    }
 
-    @PostMapping("/save/{timetableId}/{userId}")
-    public void save(@RequestBody Booking booking, @PathVariable int timetableId, @PathVariable int userId) {
-        bookingService.save(booking, timetableId, userId);
-    }
+//    @PostMapping("/save/{timetableId}/{userId}")
+//    public void save(@RequestBody Booking booking, @PathVariable int timetableId, @PathVariable int userId) {
+//        bookingService.save(booking, timetableId, userId);
+//    }
 
 //    @PutMapping("{bookingId}/v1")
 //    public ResponseEntity<?> update(@RequestBody Booking booking, @PathVariable int bookingId) {
 //        return bookingService.update(booking, bookingId);
 //    }
 
-    @PutMapping("/update/{bookingId}")
-    public ResponseEntity<?> update(@RequestBody Booking booking, @PathVariable int bookingId) {
-        return bookingService.update(booking, bookingId);
-    }
+//    @PutMapping("/update/{bookingId}")
+//    public ResponseEntity<?> update(@RequestBody Booking booking, @PathVariable int bookingId) {
+//        return bookingService.update(booking, bookingId);
+//    }
 
 //    @DeleteMapping("{bookingId}/v1")
 //    public ResponseEntity<?> delete(@PathVariable int bookingId) {
 //        return bookingService.delete(bookingId);
 //    };
 
-    @DeleteMapping("/delete/{bookingId}")
-    public ResponseEntity<?> delete(@PathVariable int bookingId) {
-        return bookingService.delete(bookingId);
-    }
+//    @DeleteMapping("/delete/{bookingId}")
+//    public ResponseEntity<?> delete(@PathVariable int bookingId) {
+//        return bookingService.delete(bookingId);
+//    }
 }

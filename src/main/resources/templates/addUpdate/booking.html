@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Booking Editor</title>
+</head>
+<body>
+
+<div class="container">
+
+    <h3>Booking Editor</h3>
+    <hr>
+
+    <p class="h4 mb-4">Save Booking</p>
+
+    <form action="#" th:action="@{/api/booking/save}"
+          th:object="${booking}" method="POST">
+
+        <!-- Add hidden form field to handle update -->
+        <input type="hidden" th:field="*{id}"/>
+
+        <input type="text" th:field="*{timetableId}"
+               class="form-control mbz-4 col-4" placeholder="User Name">
+
+        <input type="text" th:field="*{userId}"
+               class="form-control mb-4 col-4" placeholder="Password">
+
+        <input type="text" th:field="*{seats}"
+               class="form-control mb-4 col-4" placeholder="Role">
+
+        <button type="submit" class="btn btn-info col-2">Save</button>
+
+    </form>
+
+    <hr>
+    <a th:href="@{/api/users/list}">Back to User List</a>
+
+</div>
+
+</body>
+</html>

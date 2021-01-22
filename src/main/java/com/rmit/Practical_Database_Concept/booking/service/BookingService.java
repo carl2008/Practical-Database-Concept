@@ -87,6 +87,10 @@ public class BookingService {
         bookingRepository.save(booking);
     }
 
+    public void save(Booking booking) {
+        bookingRepository.save(booking);
+    }
+
     public ResponseEntity<?> update(Booking booking, int bookingId) {
         try {
             Booking existBooking = bookingRepository.findOneById(bookingId);

@@ -54,10 +54,10 @@ public class UserController {
 
     @GetMapping("/delete")
     public String delete(@RequestParam("userId")int theId){
-        //get the employee
+
         bookingService.deleteByUserId(theId);
         userService.deleteById(theId);
-        //redirect to list
+
         return "redirect:/api/users/list";
     }
 

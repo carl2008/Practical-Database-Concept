@@ -58,28 +58,24 @@
 
             <!-- update functions -->
             <td>
-                <!--                <a th:href = "@{/admin/user/showFormForUpdate(userId = ${tempUser.id})}"-->
-                <!--                   class = "btn btn-warning">-->
-                <!--                    Update-->
-                <!--                </a>-->
-                <!--                <a class="btn btn-danger"-->
-                <!--                   onclick="if (!(confirm('Are you sure want to delete this user ???'))) return false"-->
-                <!--                   th:href="@{/admin/user/delete(userId = ${tempUser.id})}">-->
-                <!--                    Delete-->
-                <!--                </a>-->
+                <a th:href = "@{/api/booking/showFormForUpdate(bookingId = ${tempBooking.id})}"
+                   class = "btn btn-warning">
+                    Update
+                </a>
+                <a class="btn btn-danger"
+                   onclick="if (!(confirm('Are you sure want to delete this user ???'))) return false"
+                   th:href="@{/api/booking/delete(bookingId = ${tempBooking.id})}">
+                    Delete
+                </a>
             </td>
         </tr>
         </tbody>
     </table>
     <!-- Add a button -->
-    <!--    <a th:href="@{/admin/user/showFormForAdd}"-->
-    <!--       class="btn btn-primary btn-sm mb-3">-->
-    <!--        Add User-->
-    <!--    </a>-->
-    <!--    <a th:href="@{/home/index}"-->
-    <!--       class="btn btn-primary btn-sm mb-3">-->
-    <!--        Back to Homepage-->
-    <!--    </a>-->
+        <a th:href="@{/api/booking/showFormForAdd}"
+           class="btn btn-primary btn-sm mb-3">
+            Add Booking
+        </a>
 </div>
 
 </body>
