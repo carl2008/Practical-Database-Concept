@@ -49,6 +49,13 @@ public class BookingService {
         return bookingRepository.findAll();
     }
 
+    public void deleteByUserId(int userId) {
+        List<Booking> bookingId = findBookingByUserId(userId);
+        bookingRepository.deleteById(bookingId);
+    }
+
+
+
     public List<Booking> findBookingByUserId() {
         User user = userService.findLoggedInUser();
 
