@@ -1,10 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Movie Editor</title>
 </head>
 <body>
+
+<div class="container">
+
+    <h3>Movie Editor</h3>
+    <hr>
+
+    <p class="h4 mb-4">Save Movie</p>
+
+    <form action="#" th:action="@{/home/save}"
+          th:object="${movie}" method="POST">
+
+        <!-- Add hidden form field to handle update -->
+        <input type="hidden" th:field="*{id}"/>
+
+        <input type="text" th:field="*{movieName}"
+               class="form-control mb-4 col-4" placeholder="Movie name">
+
+        <input type="text" th:field="*{directors}"
+               class="form-control mb-4 col-4" placeholder="Directors">
+
+        <input type="text" th:field="*{cast}"
+               class="form-control mb-4 col-4" placeholder="Cast">
+
+        <input type="text" th:field="*{category}"
+               class="form-control mb-4 col-4" placeholder="Category">
+
+        <input type="text" th:field="*{premiere}"
+               class="form-control mb-4 col-4" placeholder="yyyy-MM-dd HH:mm">
+
+        <input type="number" th:field="*{duration}"
+               class="form-control mb-4 col-4" placeholder="Duration">
+
+        <input type="text" th:field="*{language}"
+               class="form-control mb-4 col-4" placeholder="Language">
+
+        <input type="number" th:field="*{rated}"
+               class="form-control mb-4 col-4" placeholder="Rated">
+
+        <input type="text" th:field="*{description}"
+               class="form-control mb-4 col-4" placeholder="Description">
+
+        <button type="submit" class="btn btn-info col-2">Save</button>
+
+    </form>
+
+    <hr>
+    <a th:href="@{/home/list}">Back to Movie List</a>
+
+</div>
 
 </body>
 </html>

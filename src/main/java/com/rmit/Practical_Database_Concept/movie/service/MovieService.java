@@ -43,9 +43,9 @@ public class MovieService {
         return movie;
     }
 
-//    public void save(Movie movie) {
-//        movieRepository.save(movie);
-//    }
+    public void save(Movie movie) {
+        movieRepository.save(movie);
+    }
 
     public void save(MovieCollection movieCollection) {
         List<Object> timetable = movieCollection.getTimetable();

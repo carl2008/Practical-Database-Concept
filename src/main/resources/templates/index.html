@@ -104,25 +104,24 @@
                    class = "btn btn-warning">
                     Detail
                 </a>
-<!--                <a class="btn btn-danger"-->
-<!--                   onclick="if (!(confirm('Are you sure want to delete this movie ???'))) return false"-->
-<!--                   th:href="@{/admin/movie/delete(movieId = ${tempMovie.id})}">-->
-<!--                    Delete-->
-<!--                </a>-->
+                <a th:href = "@{/home/showFormForUpdate(movieId = ${tempMovie.id})}"
+                   class = "btn btn-warning">
+                    Update
+                </a>
+                <a class="btn btn-danger"
+                   onclick="if (!(confirm('Are you sure want to delete this movie ???'))) return false"
+                   th:href="@{/home/delete(movieId = ${tempMovie.id})}">
+                    Delete
+                </a>
             </td>
         </tr>
         </tbody>
     </table>
     <!-- Add a button -->
-<!--    <a th:href="@{/admin/movie/showFormForAdd}"-->
-<!--       class="btn btn-primary btn-sm mb-3">-->
-<!--        Add Movie-->
-<!--    </a>-->
-
-<!--    <a th:href="@{/home/index}"-->
-<!--       class="btn btn-primary btn-sm mb-3">-->
-<!--        Back to User Movie List-->
-<!--    </a>-->
+    <a th:href="@{/home/showFormForAdd}"
+       class="btn btn-primary btn-sm mb-3">
+        Add Movie
+    </a>
 </div>
 
 </body>
