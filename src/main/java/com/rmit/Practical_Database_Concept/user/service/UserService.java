@@ -13,6 +13,7 @@ import javax.servlet.ServletRequest;
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.NoSuchElementException;
+import java.util.Optional;
 import java.util.UUID;
 
 @Service
@@ -34,6 +35,7 @@ public class UserService {
     public List<User> listAll() {
         return userRepository.findAll();
     }
+
 
     public User findLoggedInUser() {
         Object objectId = servletRequest.getAttribute(REQUEST_USERNAME);
@@ -58,6 +60,25 @@ public class UserService {
 
         userRepository.save(user);
     }
+    public void create(User user) {
+        userRepository.save(user);
+    }
+    public User findById(int id) {
+        Optional<User> result = userRepository.findById(id);
+
+        User user = null;
+
+        if (result.isPresent()) {
+            user = result.get();
+        }
+        else {
+            // we didn't find the employee
+            throw new RuntimeException("Did not find user id - " + id);
+        }
+
+        return user;
+    }
+
 
     public ResponseEntity<?> update(User user, int userId) {
         try {
@@ -75,7 +96,7 @@ public class UserService {
         }
     }
 
-    public void delete(int id) {
+    public void deleteById(int id) {
         userRepository.deleteById(id);
     }
 }

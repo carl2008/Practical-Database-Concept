@@ -24,15 +24,13 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" th:href="@{/api/users/list}">User</a>
-            </li><li class="nav-item">
-            <a class="nav-link" th:href="@{/api/timetables/list}">Timetable</a>
-        </li>
-            <!--            <li class="nav-item">-->
-            <!--                <a class="nav-link" th:href="@{/admin/user/list}">User</a>-->
-            <!--            </li>-->
-            <!--            <li class="nav-item">-->
-            <!--                <a class="nav-link" th:href="@{/admin/user_profile/list}">User Profile</a>-->
-            <!--            </li>-->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/api/timetables/list}">Timetable</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/api/booking/list}">Booking</a>
+            </li>
         </ul>
     </nav>
     <!-- navbar ends -->
@@ -60,24 +58,24 @@
 
             <!-- update functions -->
             <td>
-<!--                <a th:href = "@{/admin/user/showFormForUpdate(userId = ${tempUser.id})}"-->
-<!--                   class = "btn btn-warning">-->
-<!--                    Update-->
-<!--                </a>-->
+                <a th:href = "@{/api/users/showFormForUpdate(userId = ${tempUser.id})}"
+                   class = "btn btn-warning">
+                    Update
+                </a>
 <!--                <a class="btn btn-danger"-->
 <!--                   onclick="if (!(confirm('Are you sure want to delete this user ???'))) return false"-->
-<!--                   th:href="@{/admin/user/delete(userId = ${tempUser.id})}">-->
+<!--                   th:href="@{/api/users/delete(userId = ${tempUser.id})}">-->
 <!--                    Delete-->
 <!--                </a>-->
             </td>
         </tr>
         </tbody>
     </table>
-    <!-- Add a button -->
-<!--    <a th:href="@{/admin/user/showFormForAdd}"-->
-<!--       class="btn btn-primary btn-sm mb-3">-->
-<!--        Add User-->
-<!--    </a>-->
+<!--     Add a button -->
+    <a th:href="@{/api/users/showFormForAdd}"
+       class="btn btn-primary btn-sm mb-3">
+        Add User
+    </a>
 <!--    <a th:href="@{/home/index}"-->
 <!--       class="btn btn-primary btn-sm mb-3">-->
 <!--        Back to Homepage-->

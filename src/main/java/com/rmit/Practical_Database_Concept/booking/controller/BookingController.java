@@ -5,16 +5,17 @@ import com.rmit.Practical_Database_Concept.booking.service.BookingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.UUID;
 
-@RestController
-@RequestMapping("api/booking")
+@Controller
+@RequestMapping("/api/booking")
 public class BookingController {
 
-    @Autowired
     private BookingService bookingService;
 
     public BookingController(BookingService bookingService) {
@@ -26,9 +27,13 @@ public class BookingController {
         return bookingService.findBookingByUserId();
     }
 
-    @GetMapping("/v2")
-    public void findAllBooking() {}
+    @GetMapping("/list")
+    public String findAllBooking(Model theModel) {
+        List<Booking> bookings = bookingService.findAll();
+        theModel.addAttribute("bookings", bookings);
 
+        return "booking";
+    }
     @GetMapping("/v1/filter")
     public List<Booking> filterBookingByCheckedIn(@Param("status") int status) {
         return bookingService.filterBookingByCheckedIn(status);

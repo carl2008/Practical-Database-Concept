@@ -44,8 +44,46 @@ public class UserController {
         return userService.update(user, id);
     }
 
-    @DeleteMapping(path = "{id}")
-    public void delete(@PathVariable int id) {
-        userService.delete(id);
+//    @DeleteMapping(path = "{id}")
+//    public void delete(@PathVariable int id) {
+//        userService.delete(id);
+//    }
+
+    @GetMapping("/delete")
+    public String delete(@RequestParam("userId")int theId){
+        //get the employee
+        userService.deleteById(theId);
+        //redirect to list
+        return "redirect:/api/users/list";
+    }
+
+    @GetMapping("/showFormForAdd")
+    public String showFormForAdd(Model theModel) {
+
+        // create model attribute to bind form data
+        User user = new User();
+
+        theModel.addAttribute("user", user);
+
+        return "addUpdate/user";
+    }
+    @GetMapping("/showFormForUpdate")
+    public String showFormForUpdate(@RequestParam("userId")int theId, Model theModel){
+        //get the user from service
+        User user = userService.findById(theId);
+        //set the user as a model attribute to pre-populate the form
+        theModel.addAttribute("user", user);
+        // send over to our form
+        return "addUpdate/user";
+    }
+    @PostMapping("/save")
+    public String saveUser(@ModelAttribute("user") User user) {
+
+        // save the user
+        userService.create(user);
+
+        // use a redirect to prevent duplicate submissions
+        return "redirect:/api/users/list";
     }
 }
+

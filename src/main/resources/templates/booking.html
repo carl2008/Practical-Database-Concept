@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <title>Timetable List</title>
+    <title>Booking List</title>
 </head>
 
 <body>
@@ -35,53 +35,52 @@
     </nav>
     <!-- navbar ends -->
 
-    <h3>Timetable List</h3>
+    <h3>Booking List</h3>
     <hr>
     <br>
 
     <table class="table table-bordered table-striped">
         <thead class="thead-dark">
         <tr>
-            <th>Time Slot</th>
-            <th>Seat Available</th>
-            <th>Movie Name</th>
+            <th>Timeslot</th>
+            <th>Username</th>
+            <th>Seats</th>
             <th>Action</th>
-
         </tr>
         </thead>
 
         <tbody>
 
-        <tr th:each="tempTimetable : ${timetables}">
-            <td th:text="${tempTimetable.timeslot}"></td>
-            <td th:text="${tempTimetable.seat_available}"></td>
-            <td th:text ="${tempTimetable.movie.movieName}"></td>
+        <tr th:each="tempBooking : ${bookings}">
+            <td th:text="${tempBooking.timetableId.timeslot}"></td>
+            <td th:text="${tempBooking.userId.username}"></td>
+            <td th:text="${tempBooking.seats}"></td>
 
             <!-- update functions -->
             <td>
-<!--                <a th:href = "@{/admin/user/showFormForUpdate(userId = ${tempUser.id})}"-->
-<!--                   class = "btn btn-warning">-->
-<!--                    Update-->
-<!--                </a>-->
-<!--                <a class="btn btn-danger"-->
-<!--                   onclick="if (!(confirm('Are you sure want to delete this user ???'))) return false"-->
-<!--                   th:href="@{/admin/user/delete(userId = ${tempUser.id})}">-->
-<!--                    Delete-->
-<!--                </a>-->
+                <!--                <a th:href = "@{/admin/user/showFormForUpdate(userId = ${tempUser.id})}"-->
+                <!--                   class = "btn btn-warning">-->
+                <!--                    Update-->
+                <!--                </a>-->
+                <!--                <a class="btn btn-danger"-->
+                <!--                   onclick="if (!(confirm('Are you sure want to delete this user ???'))) return false"-->
+                <!--                   th:href="@{/admin/user/delete(userId = ${tempUser.id})}">-->
+                <!--                    Delete-->
+                <!--                </a>-->
             </td>
         </tr>
         </tbody>
     </table>
     <!-- Add a button -->
-<!--    <a th:href="@{/admin/user/showFormForAdd}"-->
-<!--       class="btn btn-primary btn-sm mb-3">-->
-<!--        Add User-->
-<!--    </a>-->
-<!--    <a th:href="@{/home/index}"-->
-<!--       class="btn btn-primary btn-sm mb-3">-->
-<!--        Back to Homepage-->
-<!--    </a>-->
-    </div>
+    <!--    <a th:href="@{/admin/user/showFormForAdd}"-->
+    <!--       class="btn btn-primary btn-sm mb-3">-->
+    <!--        Add User-->
+    <!--    </a>-->
+    <!--    <a th:href="@{/home/index}"-->
+    <!--       class="btn btn-primary btn-sm mb-3">-->
+    <!--        Back to Homepage-->
+    <!--    </a>-->
+</div>
 
 </body>
 </html>
