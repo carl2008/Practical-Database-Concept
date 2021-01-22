@@ -50,6 +50,7 @@ package com.rmit.Practical_Database_Concept.movie.controller;
 
 import com.rmit.Practical_Database_Concept.movie.model.Movie;
 import com.rmit.Practical_Database_Concept.movie.service.MovieService;
+import com.rmit.Practical_Database_Concept.user.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -71,6 +72,7 @@ public class MovieController {
 
         // get employees from db
         List<Movie> movies = movieService.findAll();
+//        User user = new User();
         // check if there is a search keyword
 //        if(keyword != null){
 //            theModel.addAttribute("movies", movieService.findByMovieName(keyword));
@@ -78,6 +80,7 @@ public class MovieController {
 //        else {
 //            // add to the spring model
             theModel.addAttribute("movies", movies);
+//        theModel.addAttribute("user", user);
 //        }
 
         return "index";

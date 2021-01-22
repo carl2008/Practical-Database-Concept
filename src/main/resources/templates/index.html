@@ -33,37 +33,41 @@
 
 <div class="container">
 
-<!--    <nav class="navbar navbar-expand-sm bg-light bg-dark navbar-dark justify-content-center">-->
-<!--        <ul class="navbar-nav">-->
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link" th:href="@{/admin/movie/list}">Movie</a>-->
-<!--            </li>-->
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link" th:href="@{/admin/reservation/list}">Reservation</a>-->
-<!--            </li>-->
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link" th:href="@{/admin/user/list}">User</a>-->
-<!--            </li>-->
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link" th:href="@{/admin/user_profile/list}">User Profile</a>-->
-<!--            </li>-->
-<!--        </ul>-->
-<!--    </nav>-->
+  <!-- navbar starts -->
+    <nav class="navbar navbar-expand-sm bg-light bg-dark navbar-dark justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/home/list}">Movie</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/api/users/list}">User</a>
+            </li>
+            <!--            <li class="nav-item">-->
+            <!--                <a class="nav-link" th:href="@{/admin/user/list}">User</a>-->
+            <!--            </li>-->
+            <!--            <li class="nav-item">-->
+            <!--                <a class="nav-link" th:href="@{/admin/user_profile/list}">User Profile</a>-->
+            <!--            </li>-->
+        </ul>
+    </nav>
+    <!-- navbar ends -->
 
-<!--    <form class="form-inline my-1" th:action="@{/home/register}"  method="POST">-->
+<!--    <form class="form-inline my-1"  th:action="@{api/authenticate/register}" method="POST">-->
 
 <!--        &lt;!&ndash; Add hidden form field to handle update &ndash;&gt;-->
 <!--        <div th:object="${user}">-->
-<!--            <input type="hidden" th:field="*{id}"/>-->
+<!--&lt;!&ndash;            <input type="hidden" th:field="*{id}"/>&ndash;&gt;-->
 
 <!--            <input type="text" th:field="*{username}"-->
 <!--                   class="form-control form-control-sm mr-sm-2 mb-0" placeholder="User Name">-->
 
 <!--            <input type="password" th:field="*{password}"-->
 <!--                   class="form-control form-control-sm mr-sm-2 mb-0" placeholder="Password">-->
-<!--            <input type="hidden" th:field="*{roles}" placeholder="Role">-->
-<!--            <input type="hidden" th:field="*{is_active}" placeholder="Role">-->
+<!--            <input type="text" placeholder="Role">-->
+<!--&lt;!&ndash;            <input type="hidden" th:field="*{is_active}" placeholder="Role">&ndash;&gt;-->
 <!--        </div>-->
+<!--        <button type="submit" class="btn btn-success btn-sm my-0">Register</button>-->
+<!--    </form>-->
 
     <h3>Movie List</h3>
     <hr>

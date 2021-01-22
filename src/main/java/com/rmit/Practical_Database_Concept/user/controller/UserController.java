@@ -4,24 +4,29 @@ import com.rmit.Practical_Database_Concept.user.model.User;
 import com.rmit.Practical_Database_Concept.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
-@RequestMapping("api/users")
+@Controller
+@RequestMapping("/api/users")
 public class UserController {
 
-    @Autowired
     private final UserService userService;
 
     public UserController(UserService userService) {
         this.userService = userService;
     }
 
-    @GetMapping()
-    public List<User> list() {
-        return userService.listAll();
+    @GetMapping("/list")
+    public String list(Model theModel) {
+//        return userService.listAll();
+        List<User> users = userService.listAll();
+        theModel.addAttribute("users", users);
+
+        return "user";
     }
 
     @GetMapping(path = "{username}")

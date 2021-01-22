@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>User List</title>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- navbar starts -->
+    <nav class="navbar navbar-expand-sm bg-light bg-dark navbar-dark justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/home/list}">Movie</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/api/users/list}">User</a>
+            </li>
+            <!--            <li class="nav-item">-->
+            <!--                <a class="nav-link" th:href="@{/admin/user/list}">User</a>-->
+            <!--            </li>-->
+            <!--            <li class="nav-item">-->
+            <!--                <a class="nav-link" th:href="@{/admin/user_profile/list}">User Profile</a>-->
+            <!--            </li>-->
+        </ul>
+    </nav>
+    <!-- navbar ends -->
+
+    <h3>User List</h3>
+    <hr>
+    <br>
+
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+        <tr>
+            <th>User Name</th>
+            <th>Password</th>
+            <th>Role</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr th:each="tempUser : ${users}">
+            <td th:text="${tempUser.username}"></td>
+            <td th:text="${tempUser.password}"></td>
+            <td th:text="${tempUser.roles}"></td>
+
+            <!-- update functions -->
+            <td>
+<!--                <a th:href = "@{/admin/user/showFormForUpdate(userId = ${tempUser.id})}"-->
+<!--                   class = "btn btn-warning">-->
+<!--                    Update-->
+<!--                </a>-->
+<!--                <a class="btn btn-danger"-->
+<!--                   onclick="if (!(confirm('Are you sure want to delete this user ???'))) return false"-->
+<!--                   th:href="@{/admin/user/delete(userId = ${tempUser.id})}">-->
+<!--                    Delete-->
+<!--                </a>-->
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <!-- Add a button -->
+<!--    <a th:href="@{/admin/user/showFormForAdd}"-->
+<!--       class="btn btn-primary btn-sm mb-3">-->
+<!--        Add User-->
+<!--    </a>-->
+<!--    <a th:href="@{/home/index}"-->
+<!--       class="btn btn-primary btn-sm mb-3">-->
+<!--        Back to Homepage-->
+<!--    </a>-->
+    </div>
+
+</body>
+</html>
