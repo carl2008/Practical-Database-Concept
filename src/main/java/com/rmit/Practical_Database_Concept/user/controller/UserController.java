@@ -1,5 +1,6 @@
 package com.rmit.Practical_Database_Concept.user.controller;
 
+import com.rmit.Practical_Database_Concept.booking.service.BookingService;
 import com.rmit.Practical_Database_Concept.user.model.User;
 import com.rmit.Practical_Database_Concept.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,9 +16,11 @@ import java.util.List;
 public class UserController {
 
     private final UserService userService;
+    private final BookingService bookingService;
 
-    public UserController(UserService userService) {
+    public UserController(UserService userService, BookingService bookingService) {
         this.userService = userService;
+        this.bookingService = bookingService;
     }
 
     @GetMapping("/list")
@@ -52,6 +55,7 @@ public class UserController {
     @GetMapping("/delete")
     public String delete(@RequestParam("userId")int theId){
         //get the employee
+        bookingService.deleteByUserId(theId);
         userService.deleteById(theId);
         //redirect to list
         return "redirect:/api/users/list";
