@@ -30,6 +30,9 @@ public class TimetableService {
     public List<Timetable> findAll() {
         return timetableRepository.findAll();
     }
+    public List<Timetable> listAll() {
+        return timetableRepository.findAll();
+    }
 
     public Timetable findById(int id) {
         Optional<Timetable> result = timetableRepository.findById(id);

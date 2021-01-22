@@ -24,9 +24,10 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" th:href="@{/api/users/list}">User</a>
-            </li><li class="nav-item">
-            <a class="nav-link" th:href="@{/api/timetables/list}">Timetable</a>
-        </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/api/timetables/list}">Timetable</a>
+            </li>
             <!--            <li class="nav-item">-->
             <!--                <a class="nav-link" th:href="@{/admin/user/list}">User</a>-->
             <!--            </li>-->
@@ -37,26 +38,27 @@
     </nav>
     <!-- navbar ends -->
 
-    <h3>User List</h3>
+    <h3>Timetable List</h3>
     <hr>
     <br>
 
     <table class="table table-bordered table-striped">
         <thead class="thead-dark">
         <tr>
-            <th>User Name</th>
-            <th>Password</th>
-            <th>Role</th>
+            <th>Time Slot</th>
+            <th>Seat Available</th>
+            <th>Movie Name</th>
             <th>Action</th>
+
         </tr>
         </thead>
 
         <tbody>
 
-        <tr th:each="tempUser : ${users}">
-            <td th:text="${tempUser.username}"></td>
-            <td th:text="${tempUser.password}"></td>
-            <td th:text="${tempUser.roles}"></td>
+        <tr th:each="tempTimetable : ${timetables}">
+            <td th:text="${tempTimetable.timeslot}"></td>
+            <td th:text="${tempTimetable.seat_available}"></td>
+            <td th:text ="${tempTimetable.movie.movieName}"></td>
 
             <!-- update functions -->
             <td>
