@@ -30,10 +30,8 @@ public class Booking {
     @JoinColumn(name = "timetable_id", nullable = false)
     private Timetable timetableId;
 
-    @ManyToOne
+    @ManyToOne( fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
     @JoinColumn(name="user_id", nullable = false)
-    @NotBlank
-    @NotNull
     private User userId;
 
     @Column(name = "seats", columnDefinition="integer Not NULL")
